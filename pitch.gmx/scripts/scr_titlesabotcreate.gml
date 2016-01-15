@@ -1,4 +1,5 @@
 //DIFFICULTY NAMES
+global.difname[0]="";
 global.difname[1]="TRAINEE";
 global.difname[2]="COMBAT LADY";
 global.difname[3]="BATTLE PRINCESS";
@@ -8,6 +9,7 @@ global.difname[6]="REALLYJOEL'S MOM";
 
 //MULTIPLY MUSIC VOLUME BY THIS
 global.lowermusic=0.4;
+global.musicinit=0;
 scr_createmusic();
 
 //GM COMPILE VERSION
@@ -15,8 +17,11 @@ scr_createmusic();
 global.gmversion=8; //7.0
 //window_set_sizeable(1);
 
+global.joystickexists=0;
+
 //RESET EVERYTHING WHEN GAME RESTARTS
 global.everchanged=0; //removes change hint from level 2
+global.difselection=0;
 if (global.difselection==0) //first selected difficulty
     global.difselection=2;
 global.soundvol=4;
@@ -24,6 +29,7 @@ global.voicevol=4;
 global.novoice=0;
 global.nomenusound=0;
 global.music=4;
+
 global.noshake=0;
 global.nointro=0;
 global.showscore=0;
@@ -66,14 +72,18 @@ scr_joycreate();
 if (joystick_exists(1)){
     global.joystickexists=1;
     global.haspov=joystick_has_pov(1);
-    }
-global.joyfire=99;
-global.joychange=99;
-global.joypause=99;
-global.joyup=99;
-global.joydown=99;
-global.joyleft=99;
-global.joyright=99;
+}
+
+// *****************
+//set init key-map，from joyfire to joyright
+global.joyfire=37;
+global.joychange=36;
+global.joypause=35;
+global.joyup=34;
+global.joydown=33;
+global.joyleft=32;
+global.joyright=31;
+
 
 global.highscore[0]=250000;
 global.highscore[1]=200000;

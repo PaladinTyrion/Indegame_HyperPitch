@@ -16,11 +16,11 @@ if (argument0==0) {
 
 //GM7
 
-if (argument0==0)
+if (argument0==0) {
     return window_get_fullscreen();
-else if (argument0==1){
+} else if (argument0==1){
     window_set_fullscreen(argument1);
     if (argument1==1)
         scr_scalewindow();
-    }
+}
 
