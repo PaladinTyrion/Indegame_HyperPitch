@@ -79,7 +79,7 @@ if (hp&lt;=0){
         if (random(1)&lt;global.pickupchance)
             instance_create(x,y+6,obj_pickup);
         }
-    scr_randnuke();
+    scr_randnuke(0);
     //CANNON
     if (killtype==1){
         scr_explo2();
@@ -117,7 +117,7 @@ if (hp&lt;=0){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             tempid=instance_create(x,y,obj_elfgib);
             tempid.type=floor(random(3))+8;
             tempid.direction=random(360);
@@ -229,7 +229,8 @@ else{
     }
 if (img2&gt;=4)
     img2=0;
-image_single=img2+dir*4;</string>
+image_single=img2+dir*4;
+</string>
           </argument>
         </arguments>
       </action>

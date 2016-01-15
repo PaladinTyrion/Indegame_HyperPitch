@@ -82,7 +82,7 @@ if (hp&lt;=0){
         if (global.showscore)
             (instance_create(x,y-4,obj_scorenumber)).points=points*global.multiplier;
         }
-    scr_randnuke();
+    scr_randnuke(0);
     //CANNON
     if (killtype==1){
         scr_explo1();
@@ -112,7 +112,7 @@ if (hp&lt;=0){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             repeat(gibs)
                 (instance_create(x,y,obj_googib)).sprite_index=spr_googib2;
             }
@@ -212,7 +212,8 @@ if (imgcyc==2){
 image_single=img;
 
 if (x&lt;obj_sabot.x-8 || x&gt;obj_sabot.x+328 || y&lt;obj_sabot.y-8 || y&gt;obj_sabot.y+248)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

@@ -1,5 +1,5 @@
 //USE GAMEPAD
-scr_joy();
+scr_joy(0);
 
 //GAMEPAD CHANGE, FIRE
 if (joy[global.joychange])
@@ -274,7 +274,7 @@ if (poweruptime>0){
         poweruptime=12;
     poweruptime-=1/40;
     if (poweruptime<=0)
-        scr_removepowerup();
+        scr_removepowerup(0);
     }
 
 //STUFF

@@ -128,7 +128,7 @@ else if (state==2){
         scr_wantsong(0);
     if (endcyc==120){
         global.latestpoints=global.points;
-        scr_restartgame();
+        scr_restartgame(0,0);
         }
     if (cyc2&lt;1000)
         cyc2+=0.01+cyc2/10;

@@ -202,7 +202,7 @@ else if (logodone){
             }
         //Proceed
         if (cyc2==160+extrawait)
-            scr_titleskip();
+            scr_titleskip(0);
         //Yeah
         yeahcyc+=1;
         if (yeahcyc<25)

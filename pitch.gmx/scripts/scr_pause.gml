@@ -1,7 +1,7 @@
 //Skip gameover
 if (instance_number(obj_gameover)==1){
     global.latestpoints=global.points;
-    scr_restartgame();
+    scr_restartgame(0,0);
     }
 
 //Skip santa intro

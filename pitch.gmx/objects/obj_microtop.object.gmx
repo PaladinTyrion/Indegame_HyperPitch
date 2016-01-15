@@ -95,7 +95,7 @@ if (hp&lt;=0){
                 tempid.speed=7;
             }
         scr_icekillbig();
-        scr_megaicefx();
+        scr_megaicefx(0);
         repeat(20){
             tempid=instance_create(x,y,obj_elfgib);
             tempid.sprite_index=spr_bulbgibs;
@@ -166,7 +166,8 @@ else if (imgcyc==3){ img=2; imgcyc=0;}
 image_single=img;
 
 if (x&lt;obj_sabot.x-8 || x&gt;obj_sabot.x+328 || y&lt;obj_sabot.y-8 || y&gt;obj_sabot.y+248)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

@@ -1,8 +1,15 @@
 //scr_drawtext(x,y,string,sep,w,sprite,firstchar)
 //original by Captain Goodnight, optimized for HPP by DCR
 
-drstr=argument2;
-if (drstr="")
+if (argument_count > 7) {
+    trush=argument[7];
+}
+
+drstr=argument[2];
+
+width=argument[4];
+
+if (drstr=="")
     return 0;
 count=0;
 check="";
@@ -14,7 +21,7 @@ for (drti=0; drti<string_length(drstr); drti+=1){
         lines+=1;
         }
     else{
-        draw_sprite(argument5,ord(check)-argument6,argument0+(8*count),argument1+(lines*argument3));
+        draw_sprite(argument[5],ord(check)-argument[6],argument[0]+(8*count),argument[1]+(lines*argument[3]));
         count+=1;
         }
     }

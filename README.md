@@ -13,4 +13,3 @@ Development Notice:
 - Latest GameMaker Studio. It has been free for use, but only supported to publish on Windows.
 - Reference： [Daniel's HOME](http://www.remar.se/daniel/pitch.php)
 
-Https test

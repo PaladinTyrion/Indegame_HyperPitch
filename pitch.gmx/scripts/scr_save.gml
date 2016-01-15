@@ -57,7 +57,7 @@ savestr+=string(global.joyright);
 global.bake[0]=global.showscore;
 global.bake[2]=global.showfps;
 global.bake[3]=global.scalewin;
-if (scr_fullscreen())
+if (scr_fullscreen(0,0))
     global.bake[1]=1;
 else
     global.bake[1]=0;

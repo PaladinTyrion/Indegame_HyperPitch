@@ -1,9 +1,9 @@
 //USE GAMEPAD
-scr_joy();
+scr_joy(0);
 if (joy[global.joyfire])
-    scr_titleskip();
+    scr_titleskip(0);
 if (joy[global.joypause])
-    scr_titleskip();
+    scr_titleskip(0);
 
 if (logodone){
     //SHAKE SCREEN

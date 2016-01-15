@@ -1,5 +1,5 @@
 scr_music();
-scr_joy();
+scr_joy(0);
 
 //GAMEPAD
 if (joy[global.joypause])

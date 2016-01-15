@@ -44,7 +44,7 @@ if (hp<=0){
     y=yprevious;
     gravity=0;
     scr_explo2();
-    scr_removepowerup();
+    scr_removepowerup(0);
     obj_sabot.deadcyc=100;
     visible=false;
     instance_create(obj_pitch.x,obj_pitch.y,obj_deadpitch);

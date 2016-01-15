@@ -25,7 +25,7 @@ if (advspawners==2){
     }
 
 //USE GAMEPAD
-scr_joy();
+scr_joy(0);
 if (joy[33])
     event_perform(ev_keypress,vk_up);
 if (joy[34])
@@ -154,7 +154,7 @@ if (!bosstime && !dyingboss){
         roomy=y/240;
         scr_specialrooms();
         if (bosstime)
-            scr_removepowerup();
+            scr_removepowerup(0);
     
         //Boss music
         if (global.level==1 && roomx=3 && roomy=0)

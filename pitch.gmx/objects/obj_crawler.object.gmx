@@ -83,7 +83,7 @@ if (hp&lt;=0){
         if (random(1)&lt;global.pickupchance)
             instance_create(x,y,obj_pickup);
         }
-    scr_randnuke();
+    scr_randnuke(0);
     //CANNON
     if (killtype==1){
         scr_explo2();
@@ -122,7 +122,7 @@ if (hp&lt;=0){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             repeat(2){
                 tempid=instance_create(x,y,obj_elfgib);
                 tempid.sprite_index=spr_bulbgibs;
@@ -339,7 +339,8 @@ else if (moving){
         image_single=animcyc3;
     else
         image_single=animcyc;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

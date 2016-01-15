@@ -107,7 +107,7 @@ if (hp&lt;=0){
                 tempid.speed=7;
             }
         scr_icekillbig();
-        scr_megaicefx();
+        scr_megaicefx(0);
         repeat(4){
             tempid=instance_create(x,y,obj_elfgib);
             tempid.sprite_index=spr_bulbgibs;
@@ -317,7 +317,8 @@ else if (moving){
         image_single=animcyc3;
     else
         image_single=animcyc;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

@@ -50,13 +50,14 @@ hp=maxhp;
 enemytype=106;
 image_single=0;
 points=5000;
-scr_removepowerup();
+scr_removepowerup(0);
 bulletspeed=1+global.difficulty*0.4;
 if (bulletspeed&gt;5)
     bulletspeed=5;
 hurtpitch=2;
 if (!global.nosound)
-    sound_play(snd_bigwhoosh);</string>
+    sound_play(snd_bigwhoosh);
+</string>
           </argument>
         </arguments>
       </action>

@@ -50,7 +50,8 @@ else if (global.difficulty==6)
 else
     shorten=0;
 
-scr_removepowerup();</string>
+scr_removepowerup(0);
+</string>
           </argument>
         </arguments>
       </action>

@@ -148,7 +148,7 @@ if (hp&lt;=0){
                 tempid.speed=7;
             }
         scr_icekillbig();
-        scr_megaicefx();
+        scr_megaicefx(0);
         repeat(20){
             tempid=instance_create(x,y,obj_elfgib);
             tempid.type=15;
@@ -274,7 +274,8 @@ if (z==0){
             sound_play(snd_enemyfire1);
             }
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

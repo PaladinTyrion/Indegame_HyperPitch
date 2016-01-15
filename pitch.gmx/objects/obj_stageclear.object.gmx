@@ -58,9 +58,10 @@ if (room!=rom_main){
           <argument>
             <kind>1</kind>
             <string>//USE GAMEPAD
-scr_joy();
+scr_joy(0);
 if (joy[global.joyfire])
-    event_perform(ev_keypress,vk_control);</string>
+    event_perform(ev_keypress,vk_control);
+</string>
           </argument>
         </arguments>
       </action>

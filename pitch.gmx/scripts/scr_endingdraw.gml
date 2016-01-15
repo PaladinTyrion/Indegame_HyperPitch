@@ -1265,7 +1265,7 @@ else if (state==9){
             scr_wantsong(0);
         if (protipcyc==42){
             global.latestpoints=global.points;
-            scr_restartgame();
+            scr_restartgame(0,0);
             }
         }
     }

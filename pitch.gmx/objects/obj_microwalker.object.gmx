@@ -122,7 +122,7 @@ if (hp&lt;=0 || (hp&lt;=24 &amp;&amp; !halfpoint)){
         if (halfpoint || doublescore)
             instance_create(x,y+6,obj_pickup);
         }
-    scr_randnuke();
+    scr_randnuke(0);
     if (killtype==3 &amp;&amp; global.bake[4]==0)
         scr_randnuke(1);
     if (halfpoint){
@@ -170,7 +170,7 @@ if (hp&lt;=0 || (hp&lt;=24 &amp;&amp; !halfpoint)){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             repeat(4){
                 tempid=instance_create(x,y,obj_elfgib);
                 tempid.sprite_index=spr_bulbgibs;
@@ -570,7 +570,8 @@ if (!halfpoint){
         else
             mtimg=mtanim;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

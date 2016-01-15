@@ -174,7 +174,7 @@ if (hp&lt;=0 || (hp&lt;=maxhp/2 &amp;&amp; !halfpoint)){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             repeat(4){
                 tempid=instance_create(x,y,obj_elfgib);
                 tempid.sprite_index=spr_bulbgibs;
@@ -535,7 +535,8 @@ else{
     }
 
 if (halfpoint &amp;&amp; image_single==0)
-    image_single=16;</string>
+    image_single=16;
+</string>
           </argument>
         </arguments>
       </action>

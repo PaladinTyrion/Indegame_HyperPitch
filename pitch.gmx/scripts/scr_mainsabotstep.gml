@@ -62,7 +62,7 @@ if (joywait==20){
         scr_joyassign();
         }
     else
-        scr_joy();
+        scr_joy(0);
     }
 else if (joywait<20)
     joywait+=1;
@@ -84,7 +84,7 @@ if ((!ignoreall && tier!="joystick") || starting>0){
     if (joy[36])
         event_perform(ev_keypress,vk_right);
     if (joy[global.joyfire])
-        scr_mainselect();
+        scr_mainselect(0);
     if (joy[global.joychange]){
         //BACKSPACE
         if (tier=="enterhighscore"){
@@ -106,7 +106,7 @@ if ((!ignoreall && tier!="joystick") || starting>0){
         if (starting>0)
             scr_mainescape();
         else
-            scr_mainselect();
+            scr_mainselect(0);
         }
     }
 

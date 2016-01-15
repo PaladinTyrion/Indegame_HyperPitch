@@ -112,10 +112,11 @@ with (obj_bulb){
 if (global.temptemp==0){
     x+=24;
     y+=24;
-    scr_megaicefx();
+    scr_megaicefx(0);
     scr_icekillbig();
     instance_destroy();
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

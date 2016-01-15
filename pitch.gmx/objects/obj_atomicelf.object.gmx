@@ -42,7 +42,8 @@ if (maxpunches&gt;8)
 
 points=5000;
 
-scr_removepowerup();</string>
+scr_removepowerup(0);
+</string>
           </argument>
         </arguments>
       </action>

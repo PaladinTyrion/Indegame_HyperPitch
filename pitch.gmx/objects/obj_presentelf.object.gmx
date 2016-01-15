@@ -72,7 +72,7 @@ if (hp&lt;=0 &amp;&amp; !marked){
         instance_create(x-8,y+8,obj_pickup);
         instance_create(x+8,y-8,obj_pickup);
         }
-    scr_randnuke();
+    scr_randnuke(0);
     //CANNON
     if (killtype==1){
         scr_explo1();
@@ -106,7 +106,7 @@ if (hp&lt;=0 &amp;&amp; !marked){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             repeat(3){
                 tempid=instance_create(x,y,obj_elfgib);
                 tempid.type=15;
@@ -205,7 +205,8 @@ if (point_distance(x,y,obj_pitch.x,obj_pitch.y)&lt;12 &amp;&amp; obj_pitch.z==0)
 
 //Z
 zspeed+=zgrav;
-z+=zspeed;</string>
+z+=zspeed;
+</string>
           </argument>
         </arguments>
       </action>

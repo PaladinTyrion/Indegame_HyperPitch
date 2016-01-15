@@ -18,35 +18,35 @@ else if (!ignoreall && tier!="highscorewait" && tier!="enterhighscore" && tier!=
             selected=6;
         else
             selected=5;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="goddess"){
         selected=1;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="really"){
         selected=1;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="help"){
         selected=0;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="options"){
         selected=0;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="highscores"){
         selected=0;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="protips"){
         selected=0;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="joystick"){
         selected=0;
-        scr_mainselect();
+        scr_mainselect(0);
         }
     else if (tier="begin"){
         //Nothing

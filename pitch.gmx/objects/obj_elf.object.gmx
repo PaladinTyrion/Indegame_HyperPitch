@@ -119,7 +119,7 @@ if (hp&lt;=0){
         if (random(1)&lt;global.pickupchance &amp;&amp; !nopickup)
             instance_create(x,y,obj_pickup);
         }
-    scr_randnuke();
+    scr_randnuke(0);
     //CANNON
     if (killtype==1){
         scr_explo1();
@@ -162,7 +162,7 @@ if (hp&lt;=0){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             tempid=instance_create(x,y,obj_elfgib);
                 if (type==1)    //Terminator
                     tempid.type=15;
@@ -311,7 +311,8 @@ if (mayfire){
         tempid.direction=point_direction(x,y,obj_pitch.x,obj_pitch.y)-10+random(20);
         tempid.speed=6;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

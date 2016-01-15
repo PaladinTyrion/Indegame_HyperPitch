@@ -165,7 +165,7 @@ if (hp&lt;=0){
             }
         if (megaice || random(1)&lt;0.1){   //Power ice
             scr_icekillbig();
-            scr_megaicefx();
+            scr_megaicefx(0);
             tempid=instance_create(x,y,obj_elfgib);
                 tempid.type=floor(random(3))+8;
                 tempid.direction=random(360);

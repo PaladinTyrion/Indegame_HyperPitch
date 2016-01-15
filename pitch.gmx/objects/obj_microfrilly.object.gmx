@@ -109,7 +109,7 @@ else if (state==1){
                 global.flash=1;
                 if (!global.nosound)
                     sound_play(snd_nocando);
-                scr_removepowerup();
+                scr_removepowerup(0);
                 }
             }
         //SET 1
@@ -332,7 +332,8 @@ if (hp&lt;=0){
         tempid.image_single=1+dir*2;
         instance_create(x,y,obj_bigexplo);
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
