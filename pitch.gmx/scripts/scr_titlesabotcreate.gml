@@ -11,8 +11,8 @@ global.lowermusic=0.4;
 scr_createmusic();
 
 //GM COMPILE VERSION
-global.gmversion=5; //5.3A
-//global.gmversion=8; //7.0
+//global.gmversion=5; //5.3A
+global.gmversion=8; //7.0
 //window_set_sizeable(1);
 
 //RESET EVERYTHING WHEN GAME RESTARTS

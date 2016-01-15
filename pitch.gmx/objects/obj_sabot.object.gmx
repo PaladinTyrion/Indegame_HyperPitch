@@ -29,23 +29,23 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -164,23 +164,23 @@ with (obj_pitchblock)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -206,23 +206,23 @@ with (obj_pitchblock)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -248,23 +248,23 @@ with (obj_pitchblock)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -294,19 +294,19 @@ with (obj_pitchblock)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -329,7 +329,8 @@ with (obj_pitchblock)
           <argument>
             <kind>1</kind>
             <string>if (!global.demomode)
-    scr_restartgame(1);</string>
+    scr_restartgame(1,0);
+</string>
           </argument>
         </arguments>
       </action>
@@ -407,23 +408,23 @@ with (obj_pitchblock)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>0</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -447,7 +448,7 @@ with (obj_pitchblock)
             <kind>1</kind>
             <string>if (paused){
     if (selected==1)
-        scr_restartgame(1);
+        scr_restartgame(1,0);
     else{
         paused=0;
         instance_activate_region(x,y,319,239,1);
@@ -455,7 +456,8 @@ with (obj_pitchblock)
         }
     if (!global.nosound)
         sound_play(snd_rainbowfire1);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -479,7 +481,7 @@ with (obj_pitchblock)
             <kind>1</kind>
             <string>if (paused){
     if (selected==1)
-        scr_restartgame(1);
+        scr_restartgame(1,0);
     else{
         paused=0;
         instance_activate_region(x,y,319,239,1);
@@ -487,7 +489,8 @@ with (obj_pitchblock)
         }
     if (!global.nosound)
         sound_play(snd_rainbowfire1);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

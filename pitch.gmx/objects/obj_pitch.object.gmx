@@ -874,7 +874,7 @@ docounter=0;
 countering=0;
 global.galactic=1;
 global.shakescreen=40;
-scr_removepowerup();
+scr_removepowerup(0);
 with (obj_redbrick)
     instance_destroy();
 with (obj_goldbrick)
@@ -890,7 +890,8 @@ obj_goddess.start=1;
 scr_mushroom(obj_goddess.x+34,obj_goddess.y+90,100);
 instance_create(obj_sabot.x,obj_sabot.y,obj_whiteflash);
 if (!global.nosound)
-    sound_play(snd_explo4);</string>
+    sound_play(snd_explo4);
+</string>
           </argument>
         </arguments>
       </action>

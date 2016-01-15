@@ -4,6 +4,7 @@
 //argument1 = what to set the fullscreen to
 
 //GM5
+/*
 if (argument0==0) {
     return full_screen;
 } else if (argument0==1){
@@ -11,9 +12,10 @@ if (argument0==0) {
     if (argument1==1)
         scr_scalewindow();
 }
+*/
 
 //GM7
-/*
+
 if (argument0==0)
     return window_get_fullscreen();
 else if (argument0==1){
@@ -21,4 +23,4 @@ else if (argument0==1){
     if (argument1==1)
         scr_scalewindow();
     }
-*/
+
