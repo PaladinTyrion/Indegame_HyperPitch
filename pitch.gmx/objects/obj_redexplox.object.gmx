@@ -27,10 +27,12 @@
             <kind>1</kind>
             <string>image_speed=0.5;
 alarm[0]=18;
-depth=310-y+obj_sabot.y;
+//depth=310-y+obj_sabot.y;
+depth=310
 vspeed=-0.5;
 if (global.shakescreen&lt;4)
-    global.shakescreen+=2;</string>
+    global.shakescreen+=2;
+</string>
           </argument>
         </arguments>
       </action>

@@ -76,13 +76,39 @@ if (joystick_exists(1)){
 
 // *****************
 //set init key-map，from joyfire to joyright
-global.joyfire=37;
+global.joyfire=30;
 global.joychange=36;
 global.joypause=35;
 global.joyup=34;
 global.joydown=33;
 global.joyleft=32;
 global.joyright=31;
+
+
+//init logodone,init
+logodone = 0;
+init = 0;
+logocyc = 0;
+lganimcyc = 0;
+lganim = 0;
+
+hypershake = 0;
+laserimg = 0;
+rainbow = 0;
+cyc2 = 0;
+yeahcyc = 0;
+fadeout = 0;
+
+
+global.skipsplash = 0;
+global.shakescreen = 0;
+
+global.latestpoints = 0;
+global.currentsong = 0;
+global.fadesong = 0;
+
+
+
 
 
 global.highscore[0]=250000;

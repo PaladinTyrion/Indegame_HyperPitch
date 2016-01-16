@@ -38,6 +38,19 @@ menutext[11]="quit";
 global.nosound=global.nomenusound;
 for (i=0;i<=9;i+=1)
     entry[i]="_";
+    
+//mainsabot extra init
+democyc = 0;
+democyc2 = 0;
+joywait = 0;
+ignoreall = 0;
+startgame = 0;
+starting = 0;
+cursorimg = 0;
+firstblack = 0;
+
+global.demolevel = 0;
+global.really = 0;
 
 
 //FIND AND ENTER HIGHSCORE
