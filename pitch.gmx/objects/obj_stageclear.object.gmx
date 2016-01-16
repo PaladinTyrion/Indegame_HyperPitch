@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>-1001</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -30,12 +30,17 @@ scr_joycreate();
 go=0;
 img=0;
 cyc=0;
+main=0;
+maininit=0;
+soonawesome=0;
+secretlevel=0;
 if (room!=rom_main){
     //award nodmgroom for boss room here; not exited by scrolling
     if (obj_sabot.dmgroom==0)
         global.nodmgrooms+=1;
     obj_sabot.dmgroom=0;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

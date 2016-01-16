@@ -1,4 +1,4 @@
-﻿![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
+![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
 
 ## Hyper Pitch ##
 
@@ -13,3 +13,9 @@ Development Notice:
 - Latest GameMaker Studio. It has been free for use, but only supported to publish on Windows.
 - Reference： [Daniel's HOME](http://www.remar.se/daniel/pitch.php)
 
+----------
+
+#### TODO: ####
+
+There are too many init problems. It comes because gm5/gm7 counld auto_init, but tragedy happens when we migrate the game from 5/7 to gms.
+Recently we are devoted to fix init problems.

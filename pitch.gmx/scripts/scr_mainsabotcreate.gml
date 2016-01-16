@@ -8,6 +8,7 @@ if (joystick_exists(1)){
 global.demomode=0;
 helppage=0;
 helppages=7;
+initnew=0;
 for (i=0;i<17;i+=1) //GOLD/purple text
     menutext[i]="";
 for (i=0;i<17;i+=1)

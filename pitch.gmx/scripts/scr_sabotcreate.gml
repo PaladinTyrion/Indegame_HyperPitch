@@ -1,7 +1,9 @@
 //HOLDSTRING
 codestring="";
 keyboard_string="";
-
+secretlevel=0;
+hiddenroom=0;
+global.demoroom=0;
 //JOYPAD
 scr_joycreate();
 

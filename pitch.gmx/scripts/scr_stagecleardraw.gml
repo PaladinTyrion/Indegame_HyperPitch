@@ -205,7 +205,7 @@ if (go){
                 text="STAGE 4";
             else
                 text="STAGE "+string(global.level);
-            if (obj_sabot.secretlevel) text2="SECRET SANTA";
+            if (secretlevel) text2="SECRET SANTA";
             else if (global.level==1) text2="FRIENDLY FACTORY";
             else if (global.level==2) text2="SPRUCE IT UP";
             else if (global.level==3) text2="NICE LIST CHAOS";
