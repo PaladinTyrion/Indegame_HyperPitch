@@ -49,7 +49,8 @@
             <kind>1</kind>
             <string>start=1;
 //cover snowflakes
-depth=1997;</string>
+depth=1997;
+</string>
           </argument>
         </arguments>
       </action>
@@ -109,7 +110,8 @@ if (open &amp;&amp; image_single&lt;4+bossgate*5){
         tempid.sprite_index=sprite_index;
         tempid.image_single=image_single;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

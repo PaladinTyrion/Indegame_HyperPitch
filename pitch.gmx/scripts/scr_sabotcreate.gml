@@ -13,6 +13,22 @@ deadcyc=0;
 dyingboss=0;
 playclosesfx=0;
 playclosesfx2=0;
+snowxoff=0;
+snowyoff=0;
+snowxoff2=0;
+snowyoff2=0;
+shakeoff=0;
+hsmoff=0;
+tim=0;
+powcyc=0;
+drawpower=0;
+bosspresent=0;
+bossbaroff=0;
+
+//for draw
+hudoff=0;
+demotextadv=0;
+levelstart=0;
 
 //JOYPAD
 scr_joycreate();

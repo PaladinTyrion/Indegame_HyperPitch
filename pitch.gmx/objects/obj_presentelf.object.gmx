@@ -38,7 +38,11 @@ depth=320-y+obj_sabot.y;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=15;</string>
+enemytype=15;
+
+state=0;
+cyc=0;
+</string>
           </argument>
         </arguments>
       </action>

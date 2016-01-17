@@ -5,7 +5,7 @@ sound_stop(snd_pitchtaunt4);
 sound_stop(snd_pitchpain1);
 sound_stop(snd_pitchpain2);
 sound_stop(snd_pitchpain3);
-sound_stop(snd_pitchpain4);
+//sound_stop(snd_pitchpain4);
 sound_stop(snd_pitchdeath);
 sound_stop(snd_pitchpostdeath1);
 sound_stop(snd_pitchpostdeath2);

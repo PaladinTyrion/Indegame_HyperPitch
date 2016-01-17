@@ -107,9 +107,16 @@ global.latestpoints = 0;
 global.currentsong = 0;
 global.fadesong = 0;
 
+global.flash=0;
+global.hurtflash=0;
+global.holdscyc=0;
+global.pcornerflash=0;
+global.demotextcyc=0;
 
+global.demomode=0;
+global.overridefullscreen=0;
 
-
+//extra init end
 
 global.highscore[0]=250000;
 global.highscore[1]=200000;

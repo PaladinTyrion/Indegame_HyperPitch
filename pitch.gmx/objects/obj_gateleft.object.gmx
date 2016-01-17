@@ -27,7 +27,13 @@
             <kind>1</kind>
             <string>image_single=0;
 type=0;
-alarm[1]=1;</string>
+alarm[1]=1;
+
+closed=0; //init
+doorblocks=0;
+open=0;
+bossgate=0;
+</string>
           </argument>
         </arguments>
       </action>

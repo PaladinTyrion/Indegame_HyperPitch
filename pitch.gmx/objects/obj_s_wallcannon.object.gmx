@@ -27,7 +27,9 @@
             <kind>1</kind>
             <string>//type - bullet type (0=bullet2, 1=bullet3, 2=bullet)
 //dir - 0=right, 1=up, 2=left, 3=down
-donothing=1;</string>
+donothing=1;
+spawned=0;
+</string>
           </argument>
         </arguments>
       </action>

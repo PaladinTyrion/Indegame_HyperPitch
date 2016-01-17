@@ -26,7 +26,12 @@
           <argument>
             <kind>1</kind>
             <string>go=1;
-sprite_index=obj_pitch.sprite_index;</string>
+sprite_index=obj_pitch.sprite_index;
+
+powerup=0;
+img=0;
+img2=0;
+</string>
           </argument>
         </arguments>
       </action>

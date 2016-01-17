@@ -26,7 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>image_speed=0.5;
-speedlimit=100;</string>
+speedlimit=100;
+
+brake=0;
+curve=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -64,7 +68,8 @@ if (brake==1){
     }
 
 if (curve!=0)
-    direction+=curve;</string>
+    direction+=curve;
+</string>
           </argument>
         </arguments>
       </action>

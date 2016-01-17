@@ -34,6 +34,13 @@ main=0;
 maininit=0;
 soonawesome=0;
 secretlevel=0;
+
+//add some init
+shakeoff=0;
+pmarkimg=0;
+pmarkimg2=0;
+drawend=0;
+
 if (room!=rom_main){
     //award nodmgroom for boss room here; not exited by scrolling
     if (obj_sabot.dmgroom==0)
@@ -201,7 +208,8 @@ if (drawend==4){
         global.level=4;
     else
         global.level+=1;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>donothing=1;</string>
+            <string>donothing=1;
+spawned=0;
+
+</string>
           </argument>
         </arguments>
       </action>

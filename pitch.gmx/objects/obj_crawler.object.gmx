@@ -47,7 +47,13 @@ delay=0;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=7;</string>
+enemytype=7;
+
+fireimg=0;
+hitflash=0;
+moving=0;
+animcyc4=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -375,7 +381,8 @@ if (hitflash&gt;0){
     else
         draw_sprite(sprite_index,7,x,y);
     draw_sprite(spr_sleighgun,gunimg+16,x-1,y-4);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

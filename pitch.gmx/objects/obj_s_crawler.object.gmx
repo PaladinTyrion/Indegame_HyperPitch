@@ -28,7 +28,10 @@
             <string>//delay - seconds delay before starting to move
 //dir - 0=right, 1=up, 2=left, 3=down
 //clock - 0=move counterclickwise, 1=move clockwise
-donothing=1;</string>
+donothing=1;
+spawned=0;
+clock=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -67,7 +70,8 @@ if (!spawned){
         tempid.image_single=4;
     done=1;
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>

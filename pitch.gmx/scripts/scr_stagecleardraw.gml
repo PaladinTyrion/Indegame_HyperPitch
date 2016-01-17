@@ -205,7 +205,7 @@ if (go){
                 text="STAGE 4";
             else
                 text="STAGE "+string(global.level);
-            if (obj_sabot.secretlevel) text2="SECRET SANTA";
+            if (global.level!=1 && obj_sabot.secretlevel) text2="SECRET SANTA";
             else if (global.level==1) text2="FRIENDLY FACTORY";
             else if (global.level==2) text2="SPRUCE IT UP";
             else if (global.level==3) text2="NICE LIST CHAOS";
@@ -238,7 +238,7 @@ if (go){
                 draw_sprite(spr_worldmap,1,x+176,y+136+shove*32+shakeoff);
             draw_sprite(spr_worldmap,1,x+216,y+136+shove*32+shakeoff);
             //Level 5 connections and dots
-            if (global.galactic || obj_sabot.secretlevel){
+            if (global.level!=1 && (global.galactic || obj_sabot.secretlevel)){
                 if (global.galactic)
                     draw_sprite(spr_worldmap,0,x+196,y+152+shove*32+shakeoff);
                 else
@@ -293,7 +293,7 @@ if (go){
             }
         }
     if (nextcyc==105){
-        if (obj_sabot.secretlevel)
+        if (global.level!=1 && obj_sabot.secretlevel)
             room_goto(rom_stage5);
         else if (room==rom_stage3 || room==rom_stage5)
             room_goto(rom_stage4);

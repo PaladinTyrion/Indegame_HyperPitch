@@ -44,7 +44,8 @@ if (x&lt;obj_sabot.x+320-96){
         expsound=0;
         scr_explo2();
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

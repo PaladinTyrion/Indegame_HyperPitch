@@ -61,7 +61,9 @@
 //13= speed
 //14= hyper
 //16= explosion
-donothing=1;</string>
+donothing=1;
+hidden=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -95,7 +97,8 @@ if (hidden){
     tempid.x=x-9;
     tempid.y=y-8;
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>

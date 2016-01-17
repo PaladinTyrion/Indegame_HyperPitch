@@ -42,6 +42,14 @@ z=0;
 pxp=0;
 pyp=0;
 
+idle=0;
+campx[5]=0;
+campy[5]=0;
+sgxprev=0;
+docounter=0;
+firingweapon=0;
+pain=0;
+
 //SPRITE
 sprite_index=global.pitchsprite;
 

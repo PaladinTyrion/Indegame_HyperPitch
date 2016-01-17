@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (global.difficulty==32)
+            <string>//extra var init
+hidden=0;
+ttl=0;
+
+if (global.difficulty==32)
     instance_destroy();
 zgrav=-0.35;
 zspeed=3;

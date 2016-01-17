@@ -32,7 +32,8 @@ delaycyc=0;
 amountcyc=0;
 intervalcyc=0;
 start=0;    //start spawning
-alarm[0]=1;</string>
+alarm[0]=1;
+</string>
           </argument>
         </arguments>
       </action>
@@ -57,7 +58,8 @@ alarm[0]=1;</string>
             <string>if (global.difficulty==32)
     interval=interval/4;
 amount=(amount+(amount*global.difficulty*0.5))*0.5;
-intervalcyc=interval*40;</string>
+intervalcyc=interval*40;
+</string>
           </argument>
         </arguments>
       </action>
@@ -109,7 +111,8 @@ if (start &amp;&amp; amountcyc&lt;amount){
     if (amountcyc&gt;=amount)
         done=1;
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>

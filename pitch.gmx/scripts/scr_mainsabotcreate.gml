@@ -53,6 +53,8 @@ firstblack = 0;
 global.demolevel = 0;
 global.really = 0;
 
+keyberror=0;
+
 
 //FIND AND ENTER HIGHSCORE
 enterhighscore=-1;

@@ -43,7 +43,12 @@ delay=0;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=9;</string>
+enemytype=9;
+
+hitflash=0;
+setdir=0;
+fireimg=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -249,7 +254,8 @@ if (fireimg&gt;0){
     image_single=dir*3+1;
     }
 else
-    image_single=dir*3;</string>
+    image_single=dir*3;
+</string>
           </argument>
         </arguments>
       </action>
