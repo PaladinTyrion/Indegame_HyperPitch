@@ -4,6 +4,16 @@ keyboard_string="";
 secretlevel=0;
 hiddenroom=0;
 global.demoroom=0;
+
+//more init
+democyc=0;
+advspawners=0;
+paused=0;
+deadcyc=0;
+dyingboss=0;
+playclosesfx=0;
+playclosesfx2=0;
+
 //JOYPAD
 scr_joycreate();
 

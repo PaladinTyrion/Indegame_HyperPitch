@@ -34,8 +34,12 @@ delaycyc=0;
 amountcyc=0;
 intervalcyc=0;
 start=0;    //start spawning
+
+type =0;
+
 alarm[0]=1;
-image_single=0;</string>
+image_single=0;
+</string>
           </argument>
         </arguments>
       </action>

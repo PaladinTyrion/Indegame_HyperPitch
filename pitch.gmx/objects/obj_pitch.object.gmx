@@ -25,7 +25,24 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//SPRITE
+            <string>//var init
+campcyc=0;
+pickvoice=0;
+pickvoice1=0;
+pickvoice2=0;
+pickvoice3=0;
+bricksound=0;
+firsttaunt=0;
+piledriving=0;
+megacountertick=0;
+poweruptime=0;
+zspeed=0;
+zgrav=0;
+z=0;
+pxp=0;
+pyp=0;
+
+//SPRITE
 sprite_index=global.pitchsprite;
 
 //DATA
@@ -40,7 +57,8 @@ hp=10;
 weapon=1;
 firerate=1;
 speedboost=1;
-powerup=0;  //1=triple, 2=power, 3=catellite, 4=speed, 5=hyper</string>
+powerup=0;  //1=triple, 2=power, 3=catellite, 4=speed, 5=hyper
+</string>
           </argument>
         </arguments>
       </action>
