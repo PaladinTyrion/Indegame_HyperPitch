@@ -36,7 +36,11 @@ hurtpitch=1;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=2;</string>
+enemytype=2;
+hitflash=0;
+imgcyc2=0;
+imgcyc=0;
+</string>
           </argument>
         </arguments>
       </action>

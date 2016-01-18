@@ -41,7 +41,7 @@ zgrav=0;
 z=0;
 pxp=0;
 pyp=0;
-
+camping=0;
 idle=0;
 campx[5]=0;
 campy[5]=0;
