@@ -124,7 +124,8 @@ if (start &amp;&amp; amountcyc&lt;amount){
     if (amountcyc&gt;=amount)
         done=1;
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>
