@@ -32,11 +32,13 @@ if (movespeed&gt;1.85)
 hp=0.5;
 points=10;
 hurtpitch=1;
+barrel=0;
 
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=16;</string>
+enemytype=16;
+</string>
           </argument>
         </arguments>
       </action>

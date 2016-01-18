@@ -29,6 +29,7 @@
 hp=16;
 points=250;
 hurtpitch=2;
+barrel=0;
 
 firemax=floor((7-(global.difficulty/1.8))*20);
 if (firemax&lt;40)
@@ -46,7 +47,8 @@ enemytype=10;
 pd1=point_direction(x,y,obj_pitch.x,obj_pitch.y);
 pd2=scr_leadshot(x+6-(dir*12),y,bulletspeed,1,45);
 if (pd2==-1)
-    pd2=pd1;</string>
+    pd2=pd1;
+</string>
           </argument>
         </arguments>
       </action>

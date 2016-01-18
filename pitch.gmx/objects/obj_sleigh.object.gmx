@@ -31,6 +31,7 @@ if (movespeed&gt;1.8)
 hp=12;
 points=180;
 hurtpitch=2;
+barrel=0;
 
 firemax=floor((7-(global.difficulty/1.8))*20);
 if (firemax&lt;20)
@@ -43,7 +44,8 @@ if (bulletspeed&gt;6)
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=8;</string>
+enemytype=8;
+</string>
           </argument>
         </arguments>
       </action>

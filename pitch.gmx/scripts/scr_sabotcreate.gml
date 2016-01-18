@@ -30,6 +30,10 @@ hudoff=0;
 demotextadv=0;
 levelstart=0;
 
+//then add
+snowfall=0;
+donecyc=0;
+
 //JOYPAD
 scr_joycreate();
 

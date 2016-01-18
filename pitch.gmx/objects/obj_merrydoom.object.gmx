@@ -38,12 +38,14 @@ if (speedtic&gt;0.1)
 hp=48;
 points=777;
 hurtpitch=4;
+barrel=0;
 
 killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=14;
-direction=point_direction(x,y,obj_pitch.x,obj_pitch.y)-20+random(40);</string>
+direction=point_direction(x,y,obj_pitch.x,obj_pitch.y)-20+random(40);
+</string>
           </argument>
         </arguments>
       </action>

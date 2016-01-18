@@ -30,6 +30,7 @@ points=320;
 image_single=0;
 hurtpitch=2;
 depth=340-y+obj_sabot.y;
+barrel=0;
 
 firemax=floor(110-global.difficulty*7);
 if (firemax&lt;60)
@@ -53,7 +54,8 @@ delay=0;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=11;</string>
+enemytype=11;
+</string>
           </argument>
         </arguments>
       </action>

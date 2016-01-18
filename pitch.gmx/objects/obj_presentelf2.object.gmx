@@ -29,7 +29,9 @@
 depth=320-y+obj_sabot.y;
 z=0;
 zspeed=-1;
-zgrav=-0.3;</string>
+zgrav=-0.3;
+barrel=0;
+</string>
           </argument>
         </arguments>
       </action>

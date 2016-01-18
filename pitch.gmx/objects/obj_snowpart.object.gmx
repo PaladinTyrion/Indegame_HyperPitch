@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>depth=322-y+obj_sabot.y;
-image_single=0;</string>
+image_single=0;
+cyc=0;
+cyc2=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -56,7 +59,8 @@ if (cyc==2){
         image_single+=1;
     if (cyc2==12)
         instance_destroy();
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

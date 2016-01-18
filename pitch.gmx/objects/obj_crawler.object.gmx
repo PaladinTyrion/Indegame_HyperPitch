@@ -30,6 +30,7 @@ hp=16;
 points=150;
 image_single=0;
 hurtpitch=2;
+barrel=0;
 
 firemax=floor((6-(global.difficulty/1.5))*20);
 if (firemax&lt;40)

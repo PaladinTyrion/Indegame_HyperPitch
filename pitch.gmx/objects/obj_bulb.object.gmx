@@ -35,6 +35,7 @@ hp=4;
 points=33;
 type=0;
 hurtpitch=1;
+barrel=0;
 
 //Firespeed is boosted by movespeed
 firespeed=0.1*global.difficulty;
@@ -52,7 +53,8 @@ fire=firemax;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=4;</string>
+enemytype=4;
+</string>
           </argument>
         </arguments>
       </action>

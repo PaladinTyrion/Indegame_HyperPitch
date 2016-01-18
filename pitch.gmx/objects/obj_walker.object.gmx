@@ -30,6 +30,7 @@ hp=maxhp;
 points=350;
 hurtpitch=2;
 alarm[0]=1;
+barrel=0;
 
 order=1;
 firstwait=40;
@@ -47,7 +48,8 @@ killdir=0;
 nopoints=0;
 type=0;
 image_single=0;
-enemytype=12;</string>
+enemytype=12;
+</string>
           </argument>
         </arguments>
       </action>

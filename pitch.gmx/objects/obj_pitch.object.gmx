@@ -61,6 +61,28 @@ movespeed=2;
 img=0;
 hp=10;
 
+//then add
+pleftprev=0;
+pleft=0;
+prightprev=0;
+pright=0;
+pupprev=0;
+pup=0;
+pdownprev=0;
+pdown=0;
+reversecounter=0;
+
+
+summon=0;
+misssummon=0;
+altpain=0;
+noblinking=0;
+lookdir=0;
+weapcyc=0;
+
+//test in pitch: is other.barrel works?
+barrel=0;
+
 //ABILITIES
 weapon=1;
 firerate=1;
@@ -403,7 +425,8 @@ if (place_meeting(x,y,obj_pitchblock)){
 qlaserx=x-pxp;
 qlasery=y-pyp;
 pxp=x;
-pyp=y;</string>
+pyp=y;
+</string>
           </argument>
         </arguments>
       </action>

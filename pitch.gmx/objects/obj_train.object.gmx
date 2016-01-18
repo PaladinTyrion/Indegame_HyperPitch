@@ -32,6 +32,7 @@ type=0;
 engine=0;
 image_single=0;
 hurtpitch=1;
+barrel=0;
 
 alarm[0]=1;
 firemax=floor((6-(global.difficulty/2))*30);
@@ -46,7 +47,8 @@ fire=30;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=5;</string>
+enemytype=5;
+</string>
           </argument>
         </arguments>
       </action>

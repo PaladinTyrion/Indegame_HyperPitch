@@ -27,11 +27,14 @@
             <kind>1</kind>
             <string>speed=2;
 type=0;
+barrel=0;
+
 type=floor(random(8));
 if (x&lt;obj_pitch.x)
     dir=0;
 else
-    dir=1;</string>
+    dir=1;
+</string>
           </argument>
         </arguments>
       </action>

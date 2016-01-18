@@ -35,6 +35,7 @@ image_single=0;
 hurtpitch=2;
 depth=320-y+obj_sabot.y;
 alarm[0]=10;
+barrel=0;
 
 firemax=floor((6-(global.difficulty/1.5))*20);
 if (firemax&lt;40)
@@ -49,7 +50,8 @@ killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=13;
-dir=floor(random(2));</string>
+dir=floor(random(2));
+</string>
           </argument>
         </arguments>
       </action>

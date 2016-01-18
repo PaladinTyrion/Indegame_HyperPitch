@@ -15,7 +15,12 @@ Development Notice:
 
 ----------
 
-#### TODO: ####
+#### Notice: ####
 
 There are too many init problems. It comes because gm5/gm7 counld auto_init, but tragedy happens when we migrate the game from 5/7 to gms.
 Recently we are devoted to fix init problems.
+
+#### TODO ####
+
+1. var other.barrel is hard to fix all for obj_top collision. other stand for collision.
+2. obj_snowpart gradually invades all pitch.

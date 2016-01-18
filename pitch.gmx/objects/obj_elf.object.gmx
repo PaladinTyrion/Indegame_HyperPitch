@@ -58,6 +58,7 @@ targetcyc=0;
 img=0;
 nopickup=0;
 mayfire=0;
+barrel=0;
 </string>
           </argument>
         </arguments>
