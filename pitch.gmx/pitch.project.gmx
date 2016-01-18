@@ -612,6 +612,7 @@
       <script>scripts\scr_stagecleardraw.gml</script>
       <script>scripts\scr_debug.gml</script>
       <script>scripts\scr_pressf4.gml</script>
+      <script>scripts\scr_sabotdraw_init.gml</script>
     </scripts>
     <scripts name="pitch">
       <script>scripts\scr_pitchstep.gml</script>

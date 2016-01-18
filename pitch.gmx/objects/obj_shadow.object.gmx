@@ -25,28 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>paused=0;
-snowfall=0;
-shakeoff=0;
-hudoff=0;
-hsmoff=0;
-ignorescore=0;
-stopcounting=0;
-hiddenroom=0;
-bosspresent=0;
-tim=0;
-drawpower=0;
-powcyc=0;
-dub1="";
-dub2="";
-bossbaroff=0;
-bosstime=0;
-demotextadv=0;
-duboff2=0;
-levelstart=0;
-dubvoice=0;
-//desperation=0;
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
@@ -68,7 +47,7 @@ dubvoice=0;
         <arguments>
           <argument>
             <kind>9</kind>
-            <script>scr_sabotdraw</script>
+            <script>scr_shadowdraw</script>
           </argument>
           <argument>
             <kind>0</kind>
