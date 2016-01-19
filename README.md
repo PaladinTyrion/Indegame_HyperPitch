@@ -1,4 +1,4 @@
-![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
+﻿![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
 
 ## Hyper Pitch ##
 
@@ -24,3 +24,7 @@ Recently we are devoted to fix init problems.
 
 1. var other.barrel is hard to fix all for obj_top collision. other stand for collision.
 2. obj_snowpart gradually invades all pitch.
+
+====================
+Development notes:
+2016.1.19 now entering game/ movements /shooting for 2weapons is okay
