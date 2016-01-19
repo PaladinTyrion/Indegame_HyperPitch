@@ -39,7 +39,8 @@ else if (global.level==4)
 else if (global.level==5)
     image_single=floor(random(3))+13;
 
-hp=1;</string>
+hp=1;
+</string>
           </argument>
         </arguments>
       </action>

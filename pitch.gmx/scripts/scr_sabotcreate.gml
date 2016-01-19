@@ -29,10 +29,12 @@ bossbaroff=0;
 hudoff=0;
 demotextadv=0;
 levelstart=0;
+stopcounting=0;
 
 //then add
 snowfall=0;
 donecyc=0;
+done=0;
 
 //JOYPAD
 scr_joycreate();

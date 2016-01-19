@@ -28,7 +28,11 @@
             <string>image_index=floor(random(4))*8;
 speed=8;
 //alarm[0]=8;
-diespeed=1;</string>
+diespeed=1;
+
+cyc=0;
+diecyc=0;
+</string>
           </argument>
         </arguments>
       </action>

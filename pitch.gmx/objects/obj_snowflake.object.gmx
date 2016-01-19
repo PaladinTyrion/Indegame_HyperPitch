@@ -30,7 +30,11 @@ swirlfac=-(5+random(5));
 z=2+random(8);
 zspeed=-0.2+random(0.8);
 zgrav=-0.03+random(0.02);
-hspeed=0.1+random(2.6);</string>
+hspeed=0.1+random(2.6);
+
+extra=0;
+swirl=0;
+</string>
           </argument>
         </arguments>
       </action>

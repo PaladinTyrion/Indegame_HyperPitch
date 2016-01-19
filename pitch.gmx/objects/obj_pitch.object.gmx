@@ -49,6 +49,19 @@ sgxprev=0;
 docounter=0;
 firingweapon=0;
 pain=0;
+snowwalk=0;
+snowwalks=0;
+snowwalks2=0;
+
+hyperweapon=0;
+invincible=0;
+
+
+//init for scr_fire
+redimg=0;
+redang=0;
+img2=0;
+
 
 //SPRITE
 sprite_index=global.pitchsprite;

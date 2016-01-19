@@ -34,6 +34,8 @@ doorblocks=0;
 open=0;
 bossgate=0;
 barrel=0;
+
+stopsnow=0;
 </string>
           </argument>
         </arguments>
