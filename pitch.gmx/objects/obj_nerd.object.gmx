@@ -32,7 +32,9 @@ if (movespeed&gt;1.85)
 hp=0.5;
 points=10;
 hurtpitch=1;
+
 barrel=0;
+invincible=0;
 
 killtype=0;
 killdir=0;

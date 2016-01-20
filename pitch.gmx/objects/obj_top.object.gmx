@@ -41,6 +41,8 @@ hitflash=0;
 imgcyc2=0;
 imgcyc=0;
 
+invincible=0;
+barrel=0;
 </string>
           </argument>
         </arguments>
@@ -220,8 +222,9 @@ if (x&lt;obj_sabot.x-8 || x&gt;obj_sabot.x+328 || y&lt;obj_sabot.y-8 || y&gt;obj
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (other=obj_barrel &amp;&amp; other.barrel)
-    other.hp=0;
+            <string>if (other.barrel)
+    hp=0;
+
 //move_contact_solid(direction,speed);
 move_bounce_solid(0);
 direction=round(direction/45)*45;

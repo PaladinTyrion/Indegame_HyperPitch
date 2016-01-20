@@ -31,7 +31,9 @@ if (movespeed&gt;1.8)
 hp=12;
 points=180;
 hurtpitch=2;
+
 barrel=0;
+invincible=0;
 
 firemax=floor((7-(global.difficulty/1.8))*20);
 if (firemax&lt;20)

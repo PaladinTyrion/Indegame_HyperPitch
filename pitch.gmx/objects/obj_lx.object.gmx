@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_single=0;</string>
+            <string>image_single=0;
+ttl=0;
+</string>
           </argument>
         </arguments>
       </action>

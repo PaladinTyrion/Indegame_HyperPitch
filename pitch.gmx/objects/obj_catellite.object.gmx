@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>image_speed=0.5;
-dir=0;</string>
+dir=0;
+firecyc=0;
+diroff=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -68,7 +71,8 @@ if (firecyc==4){
         }
     firecyc=0;
     (instance_create(x,y,obj_redbrick)).direction=dir-90+diroff;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

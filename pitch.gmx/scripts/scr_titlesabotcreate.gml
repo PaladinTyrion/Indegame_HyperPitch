@@ -115,6 +115,7 @@ global.demotextcyc=0;
 
 global.demomode=0;
 global.overridefullscreen=0;
+global.lxrotation=0;
 
 //extra init end
 

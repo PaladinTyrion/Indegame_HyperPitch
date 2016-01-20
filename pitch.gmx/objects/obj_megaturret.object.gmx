@@ -30,7 +30,9 @@ points=320;
 image_single=0;
 hurtpitch=2;
 depth=340-y+obj_sabot.y;
+
 barrel=0;
+invincible=0;
 
 firemax=floor(110-global.difficulty*7);
 if (firemax&lt;60)

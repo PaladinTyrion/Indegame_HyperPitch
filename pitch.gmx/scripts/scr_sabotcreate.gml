@@ -100,6 +100,9 @@ if (global.level==4 || global.level==5){
     instance_create(obj_pitch.x,obj_pitch.y,obj_portalappear);
     }
 
+scr_pause_init();
+    
+    
 //DEMO MODE
 if (global.demomode){
     global.ignoreall=1;

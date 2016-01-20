@@ -600,6 +600,7 @@
       <script>scripts\scr_mainescape.gml</script>
       <script>scripts\scr_ehsparticles.gml</script>
       <script>scripts\scr_drawprotips.gml</script>
+      <script>scripts\scr_block_init.gml</script>
     </scripts>
     <scripts name="sabot">
       <script>scripts\scr_sabotcreate.gml</script>
@@ -607,12 +608,14 @@
       <script>scripts\scr_sabotdraw.gml</script>
       <script>scripts\scr_shadowdraw.gml</script>
       <script>scripts\scr_specialrooms.gml</script>
+      <script>scripts\scr_sabotstep_init.gml</script>
       <script>scripts\scr_holdstring.gml</script>
       <script>scripts\scr_pause.gml</script>
       <script>scripts\scr_stagecleardraw.gml</script>
       <script>scripts\scr_debug.gml</script>
       <script>scripts\scr_pressf4.gml</script>
       <script>scripts\scr_sabotdraw_init.gml</script>
+      <script>scripts\scr_pause_init.gml</script>
     </scripts>
     <scripts name="pitch">
       <script>scripts\scr_pitchstep.gml</script>
@@ -773,7 +776,6 @@
       <object>objects\obj_enemy</object>
       <object>objects\obj_boss</object>
       <object>objects\obj_spawnenemy</object>
-      <object>objects\obj_spawner</object>
       <object>objects\obj_gate</object>
       <object>objects\obj_opengate</object>
       <object>objects\obj_pickup</object>
@@ -799,6 +801,7 @@
       <object>objects\obj_hiddenblock</object>
       <object>objects\obj_enemyviewer</object>
       <object>objects\obj_viewerbutton</object>
+      <object>objects\obj_spawner</object>
     </objects>
     <objects name="enemy">
       <object>objects\obj_elf</object>

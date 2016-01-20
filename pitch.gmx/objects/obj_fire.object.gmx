@@ -33,7 +33,10 @@ temp=floor(random(30));
 image_index+=temp/2+1;
 alarm[0]-=temp;
 
-alarm[1]=alarm[0]+18;</string>
+alarm[1]=alarm[0]+18;
+
+out=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -95,7 +98,8 @@ out=1;</string>
           <argument>
             <kind>1</kind>
             <string>if (random(1)&lt;0.05 &amp;&amp; !out)
-    (instance_create(x-3+floor(random(6)),y-1-floor(random(3)),obj_firepart)).depth=depth-1;</string>
+    (instance_create(x-3+floor(random(6)),y-1-floor(random(3)),obj_firepart)).depth=depth-1;
+</string>
           </argument>
         </arguments>
       </action>

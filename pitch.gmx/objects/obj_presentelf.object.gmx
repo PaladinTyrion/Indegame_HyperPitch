@@ -33,6 +33,9 @@ z=0;
 zspeed=0;
 zgrav=0;
 
+barrel=0;
+invincible=0;
+
 image_single=0;
 depth=320-y+obj_sabot.y;
 killtype=0;

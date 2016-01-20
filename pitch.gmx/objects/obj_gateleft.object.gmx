@@ -36,6 +36,7 @@ bossgate=0;
 barrel=0;
 
 stopsnow=0;
+scr_block_init();
 </string>
           </argument>
         </arguments>

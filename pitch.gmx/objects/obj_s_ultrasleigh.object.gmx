@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0]=20;</string>
+            <string>alarm[0]=20;
+</string>
           </argument>
         </arguments>
       </action>

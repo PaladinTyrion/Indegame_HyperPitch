@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>img=obj_pitch.laserimg;
-speed=6;</string>
+speed=6;
+hypery=0;
+bounce=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -86,7 +89,8 @@ else{
     }
 speed*=1.05;
 if (speed&gt;8)
-    speed=8;</string>
+    speed=8;
+</string>
           </argument>
         </arguments>
       </action>
@@ -313,7 +317,8 @@ for (i=0;i&lt;4;i+=1){
         tempid.sprite_index=spr_hyperlaserexplo;
         tempid.image_single=0;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

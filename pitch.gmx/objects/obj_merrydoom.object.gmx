@@ -38,7 +38,9 @@ if (speedtic&gt;0.1)
 hp=48;
 points=777;
 hurtpitch=4;
+
 barrel=0;
+invincible=0;
 
 killtype=0;
 killdir=0;

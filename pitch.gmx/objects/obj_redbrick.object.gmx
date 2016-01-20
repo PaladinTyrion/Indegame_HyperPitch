@@ -27,7 +27,10 @@
             <kind>1</kind>
             <string>image_index=obj_pitch.redimg;
 image_speed=random(1)+0.5;
-speed=6;</string>
+speed=6;
+
+pierce=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -81,7 +84,8 @@ if (obj_sabot.snowfall){
             <string>other.hp=0;
 move_contact_solid(direction,speed);
 instance_destroy();
-(instance_create(x-1+random(2),y-1+random(2),obj_redexplo)).direction=direction-5+random(10);</string>
+(instance_create(x-1+random(2),y-1+random(2),obj_redexplo)).direction=direction-5+random(10);
+</string>
           </argument>
         </arguments>
       </action>

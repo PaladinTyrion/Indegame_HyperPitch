@@ -27,7 +27,10 @@
             <kind>1</kind>
             <string>image_index=obj_pitch.redimg;
 image_speed=random(1)+0.5;
-speed=6;</string>
+speed=6;
+
+pcyc=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -59,7 +62,8 @@ if (obj_sabot.snowfall){
 
 pcyc=1-pcyc;
 if (pcyc)
-    (instance_create(x-4+random(8),y-4+random(8),obj_iceparticle)).sprite_index=spr_gbparticle;</string>
+    (instance_create(x-4+random(8),y-4+random(8),obj_iceparticle)).sprite_index=spr_gbparticle;
+</string>
           </argument>
         </arguments>
       </action>

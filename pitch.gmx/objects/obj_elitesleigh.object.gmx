@@ -29,7 +29,9 @@
 hp=16;
 points=250;
 hurtpitch=2;
+
 barrel=0;
+invincible=0;
 
 firemax=floor((7-(global.difficulty/1.8))*20);
 if (firemax&lt;40)

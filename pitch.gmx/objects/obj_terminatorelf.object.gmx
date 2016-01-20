@@ -36,7 +36,11 @@ hurtpitch=2;
 killtype=0;
 killdir=0;
 nopoints=0;
-enemytype=6;</string>
+enemytype=6;
+
+barrel=0;
+invincible=0;
+</string>
           </argument>
         </arguments>
       </action>

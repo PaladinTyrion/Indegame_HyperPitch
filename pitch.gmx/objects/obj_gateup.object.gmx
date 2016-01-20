@@ -33,6 +33,7 @@ closed=0; //init
 doorblocks=0;
 open=0;
 bossgate=0;
+scr_block_init();
 </string>
           </argument>
         </arguments>

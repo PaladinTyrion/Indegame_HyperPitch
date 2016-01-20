@@ -37,6 +37,8 @@ points=12;
 type=0;
 hurtpitch=1;
 
+frail=0;
+
 fire=40;
 killtype=0;
 killdir=0;
@@ -58,7 +60,14 @@ targetcyc=0;
 img=0;
 nopickup=0;
 mayfire=0;
+
 barrel=0;
+invincible=0;
+
+nohitsound=0;
+
+boss=0;
+
 </string>
           </argument>
         </arguments>

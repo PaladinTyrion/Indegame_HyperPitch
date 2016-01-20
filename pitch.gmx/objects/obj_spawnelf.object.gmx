@@ -27,7 +27,14 @@
             <kind>1</kind>
             <string>speed=2;
 type=0;
+
 barrel=0;
+invincible=0;
+
+cyc=0;
+img=0;
+img2=0;
+dir=0;
 </string>
           </argument>
         </arguments>
@@ -66,6 +73,7 @@ if (cyc==15){
     tempid.dir=dir;
     tempid.direction=direction;
     tempid.speed=2;
+    tempid.img2=0;
     with (tempid){
         dx=x-obj_pitch.x;
         dy=y-obj_pitch.y;
@@ -96,7 +104,8 @@ else{
     }
 if (img2&gt;=8)
     img2=0;
-image_single=img2+dir*8;</string>
+image_single=img2+dir*8;
+</string>
           </argument>
         </arguments>
       </action>

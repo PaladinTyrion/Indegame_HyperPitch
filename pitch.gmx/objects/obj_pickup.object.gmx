@@ -35,6 +35,7 @@ zgrav=-0.35;
 zspeed=3;
 z=5;
 depth=326-y+obj_sabot.y;
+ttlcyc=0;
 
 scr_pickupweights();
 //Random
