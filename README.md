@@ -27,4 +27,5 @@ Recently we are devoted to fix init problems.
 
 ====================
 Development notes:
+
 2016.1.19 now entering game/ movements /shooting for 2weapons is okay

@@ -126,7 +126,8 @@ powerup=0;  //1=triple, 2=power, 3=catellite, 4=speed, 5=hyper
             <string>//Demo mode
 pain=3600;
 altpain=3600;
-noblinking=3600;</string>
+noblinking=3600;
+</string>
           </argument>
         </arguments>
       </action>
@@ -253,7 +254,8 @@ noblinking=3600;</string>
           <argument>
             <kind>1</kind>
             <string>if (!global.nosound)
-    sound_play(snd_enemychargesmall);</string>
+    sound_play(snd_enemychargesmall);
+</string>
           </argument>
         </arguments>
       </action>
@@ -303,7 +305,8 @@ repeat(30)
 if (!global.nosound){
     sound_play(snd_rainbowkill2);
     scr_explo2();
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -358,7 +361,8 @@ else
     global.ignoreall=0;
 visible=true;
 with (obj_dummy)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>
@@ -1129,7 +1133,8 @@ if (piledriving &amp;&amp; z&gt;10 &amp;&amp; !throwenemy){
         pexoff=0;
         lookdir=4;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
