@@ -5,7 +5,7 @@
   <visible>0</visible>
   <depth>1000</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -28,6 +28,7 @@
             <string>//delay - seconds delay before starting to move
 //dir - 0=right, 1=up, 2=left, 3=down
 //clock - 0=move counterclickwise, 1=move clockwise
+event_inherited();
 donothing=1;
 spawned=0;
 clock=0;

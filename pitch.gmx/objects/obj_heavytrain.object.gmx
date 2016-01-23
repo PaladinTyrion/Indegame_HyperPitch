@@ -36,7 +36,6 @@ hurtpitch=2;
 depth=320-y+obj_sabot.y;
 alarm[0]=10;
 
-barrel=0;
 invincible=0;
 
 firemax=floor((6-(global.difficulty/1.5))*20);

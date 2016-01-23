@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>1000</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>cyc=0;
+            <string>event_inherited();
+cyc=0;
 dir=0;
+
 </string>
           </argument>
         </arguments>

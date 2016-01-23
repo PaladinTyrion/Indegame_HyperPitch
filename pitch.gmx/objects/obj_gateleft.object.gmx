@@ -33,7 +33,6 @@ closed=0; //init
 doorblocks=0;
 open=0;
 bossgate=0;
-barrel=0;
 
 stopsnow=0;
 scr_block_init();

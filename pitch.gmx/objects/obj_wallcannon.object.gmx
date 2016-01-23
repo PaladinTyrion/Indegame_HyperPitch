@@ -31,7 +31,6 @@ points=200;
 image_single=0;
 hurtpitch=2;
 
-barrel=0;
 invincible=0;
 
 firemax=floor(60-global.difficulty*5);

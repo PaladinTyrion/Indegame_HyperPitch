@@ -33,7 +33,6 @@ engine=0;
 image_single=0;
 hurtpitch=1;
 
-barrel=0;
 invincible=0;
 
 alarm[0]=1;

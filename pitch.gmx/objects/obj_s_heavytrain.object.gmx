@@ -5,7 +5,7 @@
   <visible>0</visible>
   <depth>1000</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -26,7 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>//type - color and bullet type, 0=bullet2 1=bullet 2=bullet3
-donothing=1;</string>
+event_inherited();
+donothing=1;
+
+</string>
           </argument>
         </arguments>
       </action>

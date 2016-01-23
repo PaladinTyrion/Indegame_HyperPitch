@@ -36,7 +36,6 @@ points=33;
 type=0;
 hurtpitch=1;
 
-barrel=0;
 invincible=0;
 
 //Firespeed is boosted by movespeed

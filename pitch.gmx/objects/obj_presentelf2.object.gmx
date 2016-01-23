@@ -31,7 +31,6 @@ z=0;
 zspeed=-1;
 zgrav=-0.3;
 
-barrel=0;
 invincible=0;
 </string>
           </argument>

@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>1000</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -30,6 +30,7 @@
 //amount - amount of enemies
 //dir - 0=right, 1=up, 2=left, 3=down
 //type - 1-7 for colors, else rainbows
+event_inherited();
 delaycyc=0;
 amountcyc=0;
 intervalcyc=0;
@@ -37,6 +38,7 @@ start=0;    //start spawning
 type=0;
 alarm[0]=1;
 image_single=0;
+
 </string>
           </argument>
         </arguments>

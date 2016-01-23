@@ -61,7 +61,6 @@ img=0;
 nopickup=0;
 mayfire=0;
 
-barrel=0;
 invincible=0;
 
 nohitsound=0;
@@ -372,7 +371,8 @@ else{
         vspeed=0;
     if (!place_free(x+2,y) || !place_free(x-2,y))
         hspeed=0;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

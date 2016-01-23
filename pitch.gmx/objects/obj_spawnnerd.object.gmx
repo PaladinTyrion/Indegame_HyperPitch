@@ -29,7 +29,6 @@
 type=0;
 done=0;
 
-barrel=0;
 invincible=0;
 
 type=floor(random(8));

@@ -40,7 +40,6 @@ killdir=0;
 nopoints=0;
 enemytype=3;
 
-barrel=0;
 invincible=0;
 </string>
           </argument>

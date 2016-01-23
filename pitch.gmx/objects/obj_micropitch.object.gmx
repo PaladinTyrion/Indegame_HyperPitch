@@ -299,7 +299,8 @@ if (z==0){
             <kind>1</kind>
             <string>if (other.barrel)
     other.hp=0;
-move_bounce_solid(0);</string>
+move_bounce_solid(0);
+</string>
           </argument>
         </arguments>
       </action>

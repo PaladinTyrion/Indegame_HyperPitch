@@ -53,7 +53,8 @@ tempid.speed=0;
 tempid.hp=1;
 tempid.crewelf=1;
 tempid.nopoints=1;
-tempid.mayfire=0;</string>
+tempid.mayfire=0;
+</string>
           </argument>
         </arguments>
       </action>

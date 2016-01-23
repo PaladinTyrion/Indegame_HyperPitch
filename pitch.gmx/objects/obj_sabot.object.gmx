@@ -67,7 +67,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>scr_wantsong(0);</string>
+            <string>scr_wantsong(0);
+</string>
           </argument>
         </arguments>
       </action>
@@ -90,7 +91,8 @@
           <argument>
             <kind>1</kind>
             <string>//Demo mode
-background_visible[2]=0;</string>
+background_visible[2]=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -114,7 +116,8 @@ background_visible[2]=0;</string>
             <kind>1</kind>
             <string>//DOORBLOCKS: SECOND PASS DEACTIVATION
 instance_deactivate_object(obj_doorblock);
-instance_activate_region(x,y,319,239,1);</string>
+instance_activate_region(x,y,319,239,1);
+</string>
           </argument>
         </arguments>
       </action>
@@ -138,7 +141,8 @@ instance_activate_region(x,y,319,239,1);</string>
             <kind>1</kind>
             <string>//MICROFRILLY REMOVES PITCHBLOCKS
 with (obj_pitchblock)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

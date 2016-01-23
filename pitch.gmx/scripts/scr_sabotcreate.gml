@@ -34,7 +34,6 @@ stopcounting=0;
 //then add
 snowfall=0;
 donecyc=0;
-done=0;
 
 //JOYPAD
 scr_joycreate();
@@ -100,6 +99,8 @@ if (global.level==4 || global.level==5){
     instance_create(obj_pitch.x,obj_pitch.y,obj_portalappear);
     }
 
+//script init
+scr_sabotstep_init();
 scr_pause_init();
     
     

@@ -92,9 +92,6 @@ noblinking=0;
 lookdir=0;
 weapcyc=0;
 
-//test in pitch: is other.barrel works?
-barrel=0;
-
 //ABILITIES
 weapon=1;
 firerate=1;

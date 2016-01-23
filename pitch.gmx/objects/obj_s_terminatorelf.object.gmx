@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>1000</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -29,12 +29,14 @@
 //delay - seconds delay before spawning
 //amount - amount of enemies
 //dir - 0=right, 1=up, 2=left, 3=down
+event_inherited();
 delaycyc=0;
 amountcyc=0;
 intervalcyc=0;
 start=0;    //start spawning
 alarm[0]=1;
-image_single=0;</string>
+image_single=0;
+</string>
           </argument>
         </arguments>
       </action>

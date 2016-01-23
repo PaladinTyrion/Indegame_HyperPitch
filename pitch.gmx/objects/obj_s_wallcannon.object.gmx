@@ -5,7 +5,7 @@
   <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_spawner</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -27,8 +27,10 @@
             <kind>1</kind>
             <string>//type - bullet type (0=bullet2, 1=bullet3, 2=bullet)
 //dir - 0=right, 1=up, 2=left, 3=down
+event_inherited();
 donothing=1;
 spawned=0;
+
 </string>
           </argument>
         </arguments>
