@@ -79,7 +79,8 @@ else if (imgcyc==3) img=2;
 else if (imgcyc==4) img=3;
 else if (imgcyc==5) img=2;
 else if (imgcyc==6){ img=1; imgcyc=0;}
-image_single=type+img*7;</string>
+image_single=type+img*7;
+</string>
           </argument>
         </arguments>
       </action>

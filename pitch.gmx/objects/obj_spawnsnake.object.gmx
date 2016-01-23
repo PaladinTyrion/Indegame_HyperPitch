@@ -75,7 +75,8 @@ else{
     }
 if (img2&gt;=4)
     img2=0;
-image_single=img2+dir*4;</string>
+image_single=img2+dir*4;
+</string>
           </argument>
         </arguments>
       </action>

@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>speed=2;
 type=0;
+done=0;
 
 barrel=0;
 invincible=0;
@@ -88,7 +89,8 @@ else{
     }
 if (img2&gt;=4)
     img2=0;
-image_single=img2+dir*32+type*4;</string>
+image_single=img2+dir*32+type*4;
+</string>
           </argument>
         </arguments>
       </action>

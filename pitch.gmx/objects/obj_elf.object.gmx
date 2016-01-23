@@ -36,6 +36,7 @@ hp=2;
 points=12;
 type=0;
 hurtpitch=1;
+dist=0;
 
 frail=0;
 
@@ -54,7 +55,6 @@ zgrav=0;
 imgcyc=0;
 specialmove=0;
 hitflash=0;
-hp=0;
 crewelf=0;
 targetcyc=0;
 img=0;

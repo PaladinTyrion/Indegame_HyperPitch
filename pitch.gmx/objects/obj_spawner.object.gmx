@@ -25,7 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>done=0;
+            <string>stop=0;
+done=0;
+anim=0;
+amountcyc=0;
+xoff=0;
+yoff=0;
 </string>
           </argument>
         </arguments>
@@ -48,14 +53,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//try to init here cuz create event is inherited from childs
-stop=0;
-anim=0;
-amountcyc=0;
-xoff=0;
-yoff=0;
-
-if (!stop)
+            <string>if (!stop)
     anim+=1;
 if (anim==2){
     image_single=dir*4+0;
