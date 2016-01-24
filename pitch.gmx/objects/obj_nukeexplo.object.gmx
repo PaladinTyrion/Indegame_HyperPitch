@@ -31,10 +31,16 @@ image_speed=0.5;
 alarm[1]=1;
 alarm[2]=2;
 hit=0;
+
+nopoints=0;
+
 if (global.goddess){
     instance_destroy();
     instance_create(x,y,obj_nukeexplox);
-    }</string>
+    }
+    
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -149,7 +155,8 @@ if (global.goddess){
     other.killdir=0;
     if (nopoints==1)
         other.nopoints=1;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

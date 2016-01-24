@@ -38,6 +38,8 @@ hurtpitch=0;
 dist1=11;
 dist2=22;
 
+dir=0;
+
 tempid=instance_create(x,y,obj_bulb);
 tempid.lockmove=1;
 tempid.points=222;

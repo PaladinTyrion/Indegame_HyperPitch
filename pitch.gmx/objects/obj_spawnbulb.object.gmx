@@ -25,9 +25,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed=2;
+            <string>event_inherited();
+speed=2;
 
 invincible=0;
+
+cyc=0;
+imgcyc2=0;
+imgcyc=0;
+
+type=0;
+img=0;
+mayfire=0;
 </string>
           </argument>
         </arguments>

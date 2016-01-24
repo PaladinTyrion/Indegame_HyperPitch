@@ -32,6 +32,9 @@ event_inherited();
 donothing=1;
 spawned=0;
 clock=0;
+boss=0;
+microboss=0;
+enemytype=0;
 </string>
           </argument>
         </arguments>

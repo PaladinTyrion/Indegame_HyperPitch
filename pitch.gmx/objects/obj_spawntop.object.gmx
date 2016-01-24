@@ -52,7 +52,7 @@ img=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*//EMERGE
+            <string>//EMERGE
 cyc+=1;
 if (cyc==15){
     tempid=instance_create(x,y,obj_top);
@@ -75,7 +75,7 @@ if (imgcyc2==2){
      if (imgcyc==1) img=0;
 else if (imgcyc==2) img=1;
 else if (imgcyc==3){ img=2; imgcyc=0;}
-image_single=type+img*7;*/
+image_single=type+img*7;
 </string>
           </argument>
         </arguments>

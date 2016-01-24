@@ -24,10 +24,11 @@ Recently we are devoted to fix init problems.
 
 1. var other.barrel is not to be fixed. barrel means a barrel. other means the obj by collision.
 2. passby maintitle, animation cannot be back to maintitle. 
-3. if pitch hurts, cheer die.
+3. if pitch hurts, cheer die.(src_pain:line 76)
 
 ====================
 Development notes:
 
-2016.1.19 now entering game/ movements /shooting for 2weapons is okay
+2016.1.19 now entering game/ movements /shooting for 2weapons is okay.
+
 2016.1.24 spawner is fixed. Pitch can win the first scense.

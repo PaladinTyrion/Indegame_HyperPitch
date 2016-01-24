@@ -73,7 +73,7 @@ else if (!nopain){
         else if (rand==2)
             sound_play(snd_pitchpain3);
         }
-    obj_cheersquad.cheer=2;
+   // obj_cheersquad.cheer=2;
     //Stops small pickup voices
     pickvoice1=20;
     pickvoice2=20;

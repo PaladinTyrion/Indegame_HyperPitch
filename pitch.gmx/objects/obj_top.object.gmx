@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.4+0.4*global.difficulty;
+            <string>event_inherited();
+movespeed=0.4+0.4*global.difficulty;
 if (movespeed&gt;3.2)
     movespeed=3.2;
 speed=movespeed;
@@ -225,7 +226,7 @@ if (x&lt;obj_sabot.x-8 || x&gt;obj_sabot.x+328 || y&lt;obj_sabot.y-8 || y&gt;obj
     hp=0;
 
 //move_contact_solid(direction,speed);
-move_bounce_solid(0);
+move_bounce_solid(false);
 direction=round(direction/45)*45;
 </string>
           </argument>

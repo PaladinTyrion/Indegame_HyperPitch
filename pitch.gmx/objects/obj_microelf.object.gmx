@@ -41,6 +41,15 @@ nopoints=0;
 enemytype=82;
 microboss=1;
 image_single=2;
+
+z=0;
+hitflash=0;
+state=0;
+megaice=0;
+zspeed=0;
+zgrav=0;
+jumpstate=0;
+invincible=0;
 </string>
           </argument>
         </arguments>
