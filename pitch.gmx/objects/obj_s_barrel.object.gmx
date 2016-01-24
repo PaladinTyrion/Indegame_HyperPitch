@@ -62,7 +62,8 @@ if (!spawned){
         tempid.image_single=3;
     done=1;
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>

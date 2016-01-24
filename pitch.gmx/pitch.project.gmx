@@ -774,6 +774,7 @@
       <object>objects\obj_destroyme</object>
       <object>objects\obj_activateme</object>
       <object>objects\obj_enemy</object>
+      <object>objects\obj_spawner</object>
       <object>objects\obj_boss</object>
       <object>objects\obj_spawnenemy</object>
       <object>objects\obj_gate</object>
@@ -801,7 +802,6 @@
       <object>objects\obj_hiddenblock</object>
       <object>objects\obj_enemyviewer</object>
       <object>objects\obj_viewerbutton</object>
-      <object>objects\obj_spawner</object>
     </objects>
     <objects name="enemy">
       <object>objects\obj_elf</object>

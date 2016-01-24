@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>stop=0;
-done=0;
+            <string>done=0;
+stop=0;
 anim=0;
 amountcyc=0;
 xoff=0;
