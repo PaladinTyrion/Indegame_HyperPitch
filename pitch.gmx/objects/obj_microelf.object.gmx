@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>waittime=50-global.difficulty*5;
+            <string>event_inherited();
+waittime=50-global.difficulty*5;
 if (waittime&lt;12)
     waittime=12;
 
@@ -39,7 +40,8 @@ killdir=0;
 nopoints=0;
 enemytype=82;
 microboss=1;
-image_single=2;</string>
+image_single=2;
+</string>
           </argument>
         </arguments>
       </action>

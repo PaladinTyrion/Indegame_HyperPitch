@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.25+0.25*global.difficulty;
+            <string>event_inherited();
+movespeed=0.25+0.25*global.difficulty;
 if (movespeed&gt;1.55)
     movespeed=1.55;
 if (global.difficulty==32){
@@ -37,8 +38,6 @@ points=12;
 type=0;
 hurtpitch=1;
 dist=0;
-
-frail=0;
 
 fire=40;
 killtype=0;

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>maxhp=80;
+            <string>event_inherited();
+maxhp=80;
 hp=maxhp;
 points=2000;
 hurtpitch=2;
@@ -64,7 +65,8 @@ else
     type=3;
 image_single=0;
 enemytype=89;
-microboss=1;</string>
+microboss=1;
+</string>
           </argument>
         </arguments>
       </action>

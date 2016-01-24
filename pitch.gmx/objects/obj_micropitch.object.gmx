@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!obj_sabot.oncemicropitch){
+            <string>event_inherited();
+if (!obj_sabot.oncemicropitch){
     obj_sabot.oncemicropitch=1;
     invincible=1;
 if (global.shakescreen&lt;8)
@@ -76,7 +77,8 @@ enemytype=90;
 microboss=1;
 
 zspeed=5;
-zgrav=-0.2;</string>
+zgrav=-0.2;
+</string>
           </argument>
         </arguments>
       </action>

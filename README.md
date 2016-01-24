@@ -1,4 +1,4 @@
-﻿![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
+![Hyper Pitch](http://www.remar.se/daniel/siteimg/hppguide.gif)
 
 ## Hyper Pitch ##
 
@@ -22,10 +22,12 @@ Recently we are devoted to fix init problems.
 
 #### TODO ####
 
-1. var other.barrel is hard to fix all for obj_top collision. other stand for collision.
-2. obj_snowpart gradually invades all pitch.
+1. var other.barrel is not to be fixed. barrel means a barrel. other means the obj by collision.
+2. passby maintitle, animation cannot be back to maintitle. 
+3. if pitch hurts, cheer die.
 
 ====================
 Development notes:
 
 2016.1.19 now entering game/ movements /shooting for 2weapons is okay
+2016.1.24 spawner is fixed. Pitch can win the first scense.

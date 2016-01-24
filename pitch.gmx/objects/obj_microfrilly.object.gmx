@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>dir=1;
+            <string>event_inherited();
+dir=1;
 imgdir=1;
 hp=80;
 points=2000;
@@ -36,7 +37,8 @@ killdir=0;
 nopoints=0;
 enemytype=91;
 microboss=1;
-image_single=0;</string>
+image_single=0;
+</string>
           </argument>
         </arguments>
       </action>

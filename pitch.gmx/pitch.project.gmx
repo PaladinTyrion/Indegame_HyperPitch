@@ -832,15 +832,15 @@
     <objects name="microbosses">
       <object>objects\obj_spawnmicroboss</object>
       <object>objects\obj_microsleigh</object>
-      <object>objects\obj_microsleigh2</object>
       <object>objects\obj_microelf</object>
+      <object>objects\obj_microsleigh2</object>
       <object>objects\obj_microbulb</object>
       <object>objects\obj_microtop</object>
-      <object>objects\obj_microcrawler</object>
       <object>objects\obj_microcar</object>
+      <object>objects\obj_microcrawler</object>
       <object>objects\obj_microsaucer</object>
-      <object>objects\obj_microeliminator</object>
       <object>objects\obj_microgoo</object>
+      <object>objects\obj_microeliminator</object>
       <object>objects\obj_microwalker</object>
       <object>objects\obj_micropitch</object>
       <object>objects\obj_microlaser</object>

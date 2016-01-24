@@ -25,7 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp=256;
+            <string>event_inherited();
+invincible=0;
+dir=0;
+
+hp=256;
 points=0;
 hurtpitch=1;
 
@@ -39,7 +43,8 @@ killdir=0;
 nopoints=0;
 enemytype=81;
 microboss=1;
-nohitsound=1;</string>
+nohitsound=1;
+</string>
           </argument>
         </arguments>
       </action>
@@ -90,10 +95,14 @@ if (sizecyc==360)
 siz=1.5+sin(degtorad(sizecyc))/2;
 dir+=dirstep;
 depth=312-y+obj_sabot.y;
-x=obj_microsleigh.x+cos(degtorad(dir))*28*siz;
-y=obj_microsleigh.y+sin(degtorad(dir))*20*siz;
+if (instance_number(obj_microsleigh)!=0) {
+    x=obj_microsleigh.x+cos(degtorad(dir))*28*siz;
+    y=obj_microsleigh.y+sin(degtorad(dir))*20*siz;
+}
 
-hp=256;</string>
+
+hp=256;
+</string>
           </argument>
         </arguments>
       </action>

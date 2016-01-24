@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.3+0.3*global.difficulty;
+            <string>event_inherited();
+movespeed=0.3+0.3*global.difficulty;
 if (global.difficulty==2)
     movespeed*=0.25;
 else if (global.difficulty==3)
@@ -48,7 +49,8 @@ nopoints=0;
 enemytype=88;
 invincible=1;
 wait=40;
-microboss=1;</string>
+microboss=1;
+</string>
           </argument>
         </arguments>
       </action>

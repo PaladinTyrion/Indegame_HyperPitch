@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.8+0.4*global.difficulty;
+            <string>event_inherited();
+movespeed=0.8+0.4*global.difficulty;
 if (movespeed&gt;4)
     movespeed=4;
 speed=movespeed;
@@ -38,7 +39,8 @@ killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=83;
-microboss=1;</string>
+microboss=1;
+</string>
           </argument>
         </arguments>
       </action>

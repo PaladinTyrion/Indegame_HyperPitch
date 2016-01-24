@@ -25,15 +25,23 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=1;
+            <string>event_inherited();
+movespeed=1;
 hp=6;
 points=20;
 type=0;
 engine=0;
 image_single=0;
 hurtpitch=1;
+boss=0;
 
 invincible=0;
+//then add
+hitflash=0;
+nosmoking=0;
+smoke=0;
+dir=0;
+mayfire=0;
 
 alarm[0]=1;
 firemax=floor((6-(global.difficulty/2))*30);
@@ -392,7 +400,8 @@ if (hitflash&gt;0){
     draw_sprite(sprite_index,(image_single mod 6)+24,x,y);
     if (!engine &amp;&amp; type&gt;0 &amp;&amp; mayfire)
         draw_sprite(spr_sleighgun,gunimg+16,x-1,y-1);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

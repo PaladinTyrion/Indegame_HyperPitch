@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!obj_sabot.onceeliminator){
+            <string>event_inherited();
+if (!obj_sabot.onceeliminator){
     obj_sabot.onceeliminator=1;
     x=obj_sabot.x+48+random(224);
     y=obj_sabot.y+48+random(144);
@@ -72,7 +73,8 @@ if (global.difficulty==32)
 fire=80;
 bulletspeed=0.7+global.difficulty*0.23;
 if (bulletspeed&gt;16)
-    bulletspeed=16;</string>
+    bulletspeed=16;
+</string>
           </argument>
         </arguments>
       </action>

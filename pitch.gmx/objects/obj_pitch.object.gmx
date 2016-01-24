@@ -62,6 +62,8 @@ redang=0;
 img2=0;
 laserimg=0;
 
+hbda=0;
+
 //SPRITE
 sprite_index=global.pitchsprite;
 
@@ -990,7 +992,8 @@ if (!global.nosound)
             other.killdir=point_direction(other.x,other.y,x,y)+180;
             }
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -1030,7 +1033,8 @@ with (other){
     tempid.nopoints=1;
     instance_destroy();
     }
-}</string>
+}
+</string>
           </argument>
         </arguments>
       </action>

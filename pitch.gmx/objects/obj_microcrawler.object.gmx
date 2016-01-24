@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=2;
+            <string>event_inherited();
+movespeed=2;
 hp=32;
 points=2000;
 image_single=0;
@@ -52,7 +53,8 @@ killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=84;
-microboss=1;</string>
+microboss=1;
+</string>
           </argument>
         </arguments>
       </action>

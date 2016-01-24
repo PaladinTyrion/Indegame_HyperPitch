@@ -25,7 +25,19 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.8+global.difficulty*0.1;
+            <string>event_inherited();
+
+dir=0;
+fireimg=0;
+hitflash=0;
+fireimg=0;
+targetcyc=0;
+img=0;
+img2=0;
+nohitsound=0;
+frail=0;
+
+movespeed=0.8+global.difficulty*0.1;
 if (movespeed&gt;1.8)
     movespeed=1.8;
 hp=12;
@@ -265,7 +277,8 @@ if (fireimg&gt;0)
 if (hitflash&gt;0){
     draw_sprite(sprite_index,8+dir,x,y);
     draw_sprite(spr_sleighgun,gunimg+16,x+6-(dir*12),y);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

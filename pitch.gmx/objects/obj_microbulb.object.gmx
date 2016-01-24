@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.2+0.2*global.difficulty;
+            <string>event_inherited();
+movespeed=0.2+0.2*global.difficulty;
 if (movespeed&gt;2.0)
     movespeed=2.0;
 speed=movespeed;
@@ -80,7 +81,8 @@ for (i=0;i&lt;4;i+=1){
     tempid.img=0;
     tempid.imgcyc=0;
     tempid.image_single=tempid.type+tempid.img*7;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

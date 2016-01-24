@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Prevent debug from removing
+            <string>event_inherited();
+//Prevent debug from removing
 microboss=1;
 
 //Spawn microboss
@@ -124,7 +125,8 @@ else if (type==12){
         instance_create(obj_gatedown.x,obj_gatedown.y,obj_fakedoor);
         instance_destroy();
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=1;
+            <string>event_inherited();
+movespeed=1;
 hp=16;
 points=150;
 image_single=0;

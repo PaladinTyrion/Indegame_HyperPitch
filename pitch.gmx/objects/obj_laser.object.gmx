@@ -370,7 +370,8 @@ for (i=0;i&lt;4;i+=1){
             tempid.image_single=0;
             }
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!(obj_pitch.y&gt;y-10 &amp;&amp; abs(x+16-obj_pitch.x)&lt;28 &amp;&amp; !closed)){
+            <string>event_inherited();
+if (!(obj_pitch.y&gt;y-10 &amp;&amp; abs(x+16-obj_pitch.x)&lt;28 &amp;&amp; !closed)){
     obj_gatedown.visible=0;
     if (!global.nosound)
         sound_play(snd_dooropen);
@@ -38,7 +39,8 @@ else{
 invincible=1;
 nohitsound=1;
 hurtpitch=0;
-hp=256;</string>
+hp=256;
+</string>
           </argument>
         </arguments>
       </action>
