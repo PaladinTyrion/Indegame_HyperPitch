@@ -35,6 +35,7 @@ intensity=0.4+global.difficulty*0.05;
 if (intensity&gt;0.8)
     intensity=0.8;
 noice=1;
+onfire=0;
 
 if (global.shakescreen&lt;6)
     global.shakescreen+=4;
@@ -88,7 +89,8 @@ if (!nobosshit){
     }
 speed+=0.05;
 if (speed&gt;movespeed)
-    speed=movespeed;</string>
+    speed=movespeed;
+</string>
           </argument>
         </arguments>
       </action>
@@ -121,7 +123,8 @@ repeat(10){
     tempid.direction=random(360);
     tempid.speed=2+random(10);
     }
-scr_explo2();</string>
+scr_explo2();
+</string>
           </argument>
         </arguments>
       </action>

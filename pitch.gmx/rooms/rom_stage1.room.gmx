@@ -782,7 +782,7 @@
     <instance objName="obj_freepickup" x="752" y="288" name="inst_6B318AAA" locked="0" code="type=3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="768" y="288" name="inst_11AEED3D" locked="0" code="type=2" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_snowblower" x="640" y="592" name="inst_1B0FD41D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="" x="176" y="1072" name="inst_B7CEACD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pitch" x="176" y="1072" name="inst_B7CEACD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="520" y="824" name="inst_23C81AC3" locked="0" code="type=0" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="816" y="832" name="inst_7D3590F4" locked="0" code="type=1" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="912" y="832" name="inst_1CEA7608" locked="0" code="type=0" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

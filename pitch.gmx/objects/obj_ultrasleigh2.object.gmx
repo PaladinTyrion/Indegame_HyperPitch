@@ -30,6 +30,7 @@ deathcyc=0;
 bustery=0;
 cyc=0;
 busted=0;
+savegoddess=0;
 
 obj_sabot.dyingboss=1;
 instance_create(obj_sabot.x,obj_sabot.y,obj_whiteflash);

@@ -25,12 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spawndepth=0;
+            <string>cyc=0;
+evspeed=0;
+spawndepth=0;
 if (global.goddess){
     if (global.shakescreen&lt;20)
         global.shakescreen+=20;
     scr_mushroom(x,y-32,0);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -61,7 +64,8 @@ if (!global.goddess){
         }
     }
 if (cyc==8)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>
@@ -83,7 +87,8 @@ if (cyc==8)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.hp=0;</string>
+            <string>other.hp=0;
+</string>
           </argument>
         </arguments>
       </action>

@@ -41,6 +41,17 @@ pmarkimg=0;
 pmarkimg2=0;
 drawend=0;
 
+yoff=0;
+shakeoff=0;
+lifeawarded=0;
+subgalactic=0;
+galactic=0;
+textcyc=0;
+nextcyc=0;
+shove=0;
+pmarkimg2=0;
+
+
 if (room!=rom_main){
     //award nodmgroom for boss room here; not exited by scrolling
     if (obj_sabot.dmgroom==0)

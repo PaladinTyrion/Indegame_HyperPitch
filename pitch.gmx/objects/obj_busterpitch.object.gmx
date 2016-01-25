@@ -25,9 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth=320-y+obj_sabot.y;
+            <string>cyc=0;
+zspeed=0;
+z=0;
+
+depth=320-y+obj_sabot.y;
 image_single=74;
-sprite_index=obj_pitch.sprite_index;</string>
+sprite_index=obj_pitch.sprite_index;
+</string>
           </argument>
         </arguments>
       </action>
@@ -49,7 +54,8 @@ sprite_index=obj_pitch.sprite_index;</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>victim.y=y+victim.bustery+z;</string>
+            <string>victim.y=y+victim.bustery+z;
+</string>
           </argument>
         </arguments>
       </action>
@@ -103,7 +109,8 @@ if (cyc==68){
 if (cyc==88)
     victim.busted=1;
 
-z+=zspeed;</string>
+z+=zspeed;
+</string>
           </argument>
         </arguments>
       </action>
@@ -125,7 +132,8 @@ z+=zspeed;</string>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(obj_pitch.sprite_index,74,x,y+z);</string>
+            <string>draw_sprite(obj_pitch.sprite_index,74,x,y+z);
+</string>
           </argument>
         </arguments>
       </action>
