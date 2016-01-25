@@ -1,3 +1,5 @@
+firstblack=0;
+
 scr_joycreate();
 if (joystick_exists(1)){
     global.joystickexists=1;
