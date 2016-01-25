@@ -54,7 +54,10 @@ sprite_index=obj_pitch.sprite_index;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>victim.y=y+victim.bustery+z;
+            <string>if (instance_exists(victim)) {
+    victim.y=y+victim.bustery+z;
+}
+
 </string>
           </argument>
         </arguments>

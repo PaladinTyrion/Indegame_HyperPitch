@@ -35,9 +35,11 @@ if (drawend==0){
 
     //Fix
     if (cyc==50){
-        obj_santa.stopminiexploding=1;
+        if (instance_exists(obj_santa)) {
+            obj_santa.stopminiexploding=1;
+        }   
         global.shakescreen=0;
-        }
+    }
     
     //"Awesome"
     if (cyc==50 && global.level!=4){

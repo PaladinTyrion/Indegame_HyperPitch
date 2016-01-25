@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>event_inherited();
 hurt=0;
+dark=0;
 speed=0.7+global.difficulty*0.1;
 movespeed=2.4+global.difficulty*0.1;
 if (movespeed&gt;5)

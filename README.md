@@ -27,10 +27,13 @@ Recently we are devoted to fix init problems.
 3. if pitch hurts, cheer die.(src_pain:line 76 && line 60)
 4. obj_ultrasleigh_StepEndEvent(line 2) - obj_elf;
 5. src_sabotdraw(line 312) - obj_boss, but children of obj_boss should be here.
-
+6. there is no victim instance, when src_stagecleardeaw is called Error occurs.
+ 
 ====================
 Development notes:
 
 2016.1.19 now entering game/ movements /shooting for 2weapons is okay.
 
 2016.1.24 spawner is fixed. Pitch can win the first scense.
+
+2016.1.25 stage1 can be finished approximately.

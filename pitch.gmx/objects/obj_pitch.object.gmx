@@ -56,7 +56,6 @@ snowwalks2=0;
 hyperweapon=0;
 invincible=0;
 megacounter=0;
-dark=0;
 
 //init for scr_fire
 redimg=0;
@@ -630,7 +629,8 @@ else if (!global.ignoreall &amp;&amp; !other.hurt &amp;&amp; pain==0 &amp;&amp; 
                 tempid.sprite_index=spr_bullet5part;
             }
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
