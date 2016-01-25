@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed=0.9+global.difficulty*0.05;
+            <string>event_inherited();
+speed=0.9+global.difficulty*0.05;
 hp=16;
 points=250;
 hurtpitch=2;

@@ -57,7 +57,7 @@ if (hp<=0){
     scr_stoppitchvoice();
     if (!global.novoice)
         sound_play(snd_pitchdeath);
-    obj_cheersquad.cheer=1;
+   // obj_cheersquad.cheer=1;
     }
 //PAIN
 else if (!nopain){

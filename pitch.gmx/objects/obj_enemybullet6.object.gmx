@@ -25,11 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed=0.5;
+            <string>event_inherited();
+image_speed=0.5;
 if (random(1)&lt;0.5)
     image_speed=-0.5;
 noice=1;
-speedlimit=100;</string>
+speedlimit=100;
+</string>
           </argument>
         </arguments>
       </action>

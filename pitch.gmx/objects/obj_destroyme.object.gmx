@@ -26,6 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>frail=0;
+invincible=0;
+
+//for obj_catelittle: otther triger
+noice=0;
 </string>
           </argument>
         </arguments>

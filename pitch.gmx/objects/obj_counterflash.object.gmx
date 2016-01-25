@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed=0.5;</string>
+            <string>cyc=0;
+image_speed=0.5;
+</string>
           </argument>
         </arguments>
       </action>
@@ -49,7 +51,8 @@
             <kind>1</kind>
             <string>cyc+=1;
 if (cyc==6)
-    instance_destroy();</string>
+    instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

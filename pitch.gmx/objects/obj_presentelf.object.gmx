@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp=1;
+            <string>event_inherited();
+hp=1;
 points=1000;
 hurtpitch=0;
 
@@ -44,6 +45,10 @@ enemytype=15;
 
 state=0;
 cyc=0;
+marked=0;
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

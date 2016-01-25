@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>dark=1; //dark particles when colliding with Pitch
+            <string>event_inherited();
+dark=1; //dark particles when colliding with Pitch
 hurt=0;
 noice=1;
 
@@ -36,7 +37,8 @@ repeat(10){
     tempid.sprite_index=spr_bullet5part;
     tempid.direction=random(360);
     tempid.speed=2+random(10);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

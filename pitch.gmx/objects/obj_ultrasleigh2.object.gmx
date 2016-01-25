@@ -25,7 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_sabot.dyingboss=1;
+            <string>pickedup=0;
+deathcyc=0;
+bustery=0;
+cyc=0;
+busted=0;
+
+obj_sabot.dyingboss=1;
 instance_create(obj_sabot.x,obj_sabot.y,obj_whiteflash);
 if (!global.nosound)
     sound_play(snd_explo4);
@@ -52,7 +58,8 @@ repeat(32){
     tempid.zspeed=random(6)+3;
     }
 wantx=x;
-wanty=y;</string>
+wanty=y;
+</string>
           </argument>
         </arguments>
       </action>
@@ -148,7 +155,8 @@ if (deathcyc==150 || busted){
     scr_mushroom(x,y,0);
     instance_destroy();
     instance_create(obj_sabot.x,obj_sabot.y,obj_stageclear);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

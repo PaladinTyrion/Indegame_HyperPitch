@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>event_inherited();
 nohitsound=0;
+hitflash=0;
+boss=0;
 </string>
           </argument>
         </arguments>

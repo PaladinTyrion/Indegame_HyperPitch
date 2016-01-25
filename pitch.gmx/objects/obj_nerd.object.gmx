@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>frail=1; //shots pass through, damaging the shot
+            <string>event_inherited();
+frail=1; //shots pass through, damaging the shot
 movespeed=0.25+0.25*global.difficulty;
 if (movespeed&gt;1.85)
     movespeed=1.85;
@@ -39,6 +40,9 @@ killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=16;
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

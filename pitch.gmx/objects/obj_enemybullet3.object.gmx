@@ -25,9 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed=0.5;
+            <string>event_inherited();
+image_speed=0.5;
 speed=1.6;
-intensity=2+global.difficulty*0.08;</string>
+intensity=2+global.difficulty*0.08;
+
+swirl=0;
+</string>
           </argument>
         </arguments>
       </action>
@@ -66,7 +70,8 @@ swirl+=20;
 if (swirl&gt;=360)
     swirl-=360;
 x+=cos(degtorad(swirl));
-y+=sin(degtorad(swirl));</string>
+y+=sin(degtorad(swirl));
+</string>
           </argument>
         </arguments>
       </action>
@@ -105,7 +110,8 @@ y+=sin(degtorad(swirl));</string>
           <argument>
             <kind>1</kind>
             <string>other.hp=0;
-instance_destroy();</string>
+instance_destroy();
+</string>
           </argument>
         </arguments>
       </action>

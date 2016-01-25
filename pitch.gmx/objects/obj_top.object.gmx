@@ -42,7 +42,8 @@ hitflash=0;
 imgcyc2=0;
 imgcyc=0;
 
-invincible=0;
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

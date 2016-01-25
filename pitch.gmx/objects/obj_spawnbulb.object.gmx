@@ -37,6 +37,10 @@ imgcyc=0;
 type=0;
 img=0;
 mayfire=0;
+
+boss=0;
+microboss=0;
+//enemytype=0;
 </string>
           </argument>
         </arguments>

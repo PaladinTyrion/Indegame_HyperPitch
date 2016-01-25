@@ -57,6 +57,9 @@ killtype=0;
 killdir=0;
 nopoints=0;
 enemytype=5;
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

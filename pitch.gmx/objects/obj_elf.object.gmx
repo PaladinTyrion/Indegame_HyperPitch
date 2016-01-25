@@ -57,15 +57,14 @@ hitflash=0;
 crewelf=0;
 targetcyc=0;
 img=0;
+img2=0;
 nopickup=0;
 mayfire=0;
-
-invincible=0;
 
 nohitsound=0;
 
 boss=0;
-
+microboss=0;
 </string>
           </argument>
         </arguments>

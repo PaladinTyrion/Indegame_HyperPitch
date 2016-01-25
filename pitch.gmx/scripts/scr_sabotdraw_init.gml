@@ -19,3 +19,5 @@ duboff2=0;
 levelstart=0;
 dubvoice=0;
 //desperation=0;
+
+

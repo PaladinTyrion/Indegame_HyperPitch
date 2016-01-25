@@ -68,6 +68,9 @@ imgcyc2=0;
 imgcyc=0;
 img=0;
 mayfire=0;
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

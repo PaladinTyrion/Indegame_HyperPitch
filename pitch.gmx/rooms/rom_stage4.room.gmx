@@ -673,7 +673,7 @@
     <instance objName="obj_s_wallcannon" x="992" y="352" name="inst_93014383" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_wallcannon" x="1152" y="416" name="inst_A5C619AC" locked="0" code="dir=1" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_s_wallcannon" x="1040" y="272" name="inst_BF416546" locked="0" code="dir=3" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pitch" x="160" y="1072" name="inst_334B64F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="" x="160" y="1072" name="inst_334B64F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="496" y="352" name="inst_8567B422" locked="0" code="type=2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="496" y="368" name="inst_35E88652" locked="0" code="type=2;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_freepickup" x="48" y="384" name="inst_3DBBB33D" locked="0" code="type=12;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

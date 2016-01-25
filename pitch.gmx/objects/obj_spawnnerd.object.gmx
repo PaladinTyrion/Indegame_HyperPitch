@@ -38,6 +38,10 @@ img2=0;
 dir=0;
 type=0;
 
+boss=0;
+microboss=0;
+//enemytype=0;
+
 type=floor(random(8));
 if (x&lt;obj_pitch.x)
     dir=0;

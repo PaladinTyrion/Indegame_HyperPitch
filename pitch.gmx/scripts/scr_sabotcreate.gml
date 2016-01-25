@@ -34,6 +34,7 @@ stopcounting=0;
 //then add
 snowfall=0;
 donecyc=0;
+desperation=0;
 
 //JOYPAD
 scr_joycreate();

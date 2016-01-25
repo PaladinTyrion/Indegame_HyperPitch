@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>boss=1; //Prevents from taking damage from respawning Pitch
+            <string>event_inherited();
+boss=1; //Prevents from taking damage from respawning Pitch
 realboss=1; //This is the boss itself
 maxhp=400;
 if (global.difficulty==2)
@@ -34,6 +35,15 @@ hp=maxhp;
 enemytype=101;
 image_single=0;
 hurtpitch=2;
+
+desperation=0;
+dfcyc=0;
+despcyc=0;
+startwait=0;
+movecyc=0;
+firecyc=0;
+stopmove=0;
+bob=0;
 
 if (!global.nosound)
     sound_play(snd_bigwhoosh);
@@ -77,8 +87,9 @@ tempid.mayfire=0;
           <argument>
             <kind>1</kind>
             <string>//STARTING CREWELF
-obj_elf.x=x+4;
-obj_elf.y=y-23;</string>
+//obj_elf.x=x+4;
+//obj_elf.y=y-23;
+</string>
           </argument>
         </arguments>
       </action>
@@ -371,7 +382,8 @@ else if (!desperation){
         else
             bob=8;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -412,7 +424,8 @@ if (!desperation){
         draw_sprite(spr_enemyfire,5-(40-firecyc)/2,x,y+6);
     if (firecyc&gt;128 &amp;&amp; firecyc&lt;140 &amp;&amp; global.difficulty&gt;=4)
         draw_sprite(spr_enemyfire,5-(140-firecyc)/2,x+14,y+6);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

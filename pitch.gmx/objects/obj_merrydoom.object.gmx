@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.4+0.4*global.difficulty;
+            <string>event_inherited();
+movespeed=0.4+0.4*global.difficulty;
 if (movespeed&gt;3)
     movespeed=3;
 if (global.difficulty==2)
@@ -46,6 +47,9 @@ killdir=0;
 nopoints=0;
 enemytype=14;
 direction=point_direction(x,y,obj_pitch.x,obj_pitch.y)-20+random(40);
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

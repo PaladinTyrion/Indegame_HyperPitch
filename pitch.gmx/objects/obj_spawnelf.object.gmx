@@ -28,12 +28,14 @@
             <string>speed=2;
 type=0;
 
-invincible=0;
-
 cyc=0;
 img=0;
 img2=0;
 dir=0;
+
+boss=0;
+microboss=0;
+//enemytype=0;
 </string>
           </argument>
         </arguments>

@@ -55,13 +55,14 @@ snowwalks2=0;
 
 hyperweapon=0;
 invincible=0;
+megacounter=0;
 
 //init for scr_fire
 redimg=0;
 redang=0;
 img2=0;
 laserimg=0;
-
+hbdad=0;
 hbda=0;
 
 //SPRITE
@@ -85,7 +86,7 @@ pup=0;
 pdownprev=0;
 pdown=0;
 reversecounter=0;
-
+desperation=0;
 
 summon=0;
 misssummon=0;

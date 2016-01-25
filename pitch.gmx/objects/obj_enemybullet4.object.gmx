@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hurt=0;
+            <string>event_inherited();
+hurt=0;
 speed=0.7+global.difficulty*0.1;
 movespeed=2.4+global.difficulty*0.1;
 if (movespeed&gt;5)
@@ -41,7 +42,8 @@ repeat(10){
     tempid=instance_create(x-1,y-5,obj_bullet4part);
     tempid.direction=random(360);
     tempid.speed=2+random(10);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>

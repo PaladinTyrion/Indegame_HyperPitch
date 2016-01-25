@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>movespeed=0.3+global.difficulty*0.2;
+            <string>event_inherited();
+movespeed=0.3+global.difficulty*0.2;
 if (movespeed&gt;1.2)
     movespeed=1.2;
 maxhp=32;
@@ -52,6 +53,9 @@ killdir=0;
 nopoints=0;
 enemytype=13;
 dir=floor(random(2));
+
+boss=0;
+microboss=0;
 </string>
           </argument>
         </arguments>

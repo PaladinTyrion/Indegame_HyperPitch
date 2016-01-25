@@ -25,9 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth=320-y+obj_sabot.y;
+            <string>blink=0;
+cyc=0;
+
+depth=320-y+obj_sabot.y;
 alarm[0]=50;
-image_single=73;</string>
+image_single=73;
+</string>
           </argument>
         </arguments>
       </action>
@@ -104,7 +108,8 @@ else{
         cyc=0;
         visible=1-visible;
         }
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -126,7 +131,8 @@ else{
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(obj_pitch.sprite_index,image_single,round(x),round(y));</string>
+            <string>draw_sprite(obj_pitch.sprite_index,image_single,round(x),round(y));
+</string>
           </argument>
         </arguments>
       </action>

@@ -25,8 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speedlimit=4;
-noice=1;</string>
+            <string>event_inherited();
+speedlimit=4;
+noice=1;
+</string>
           </argument>
         </arguments>
       </action>

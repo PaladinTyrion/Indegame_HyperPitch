@@ -309,9 +309,11 @@ else{
             bossmaxhpamount=savehudbossmaxhp;
             }
         else{
-            bosshpamount=obj_boss.hp;
-            bossmaxhpamount=obj_boss.maxhp;
-            }
+            //bosshpamount=obj_boss.hp;
+            //bossmaxhpamount=obj_boss.maxhp;
+            bosshpamount=instance_create(0,0,obj_boss).hp;
+            bossmaxhpamount=instance_create(0,0,obj_boss).maxhp;
+        }
         draw_sprite(spr_hudbottom,hudimg,x+0,-18+y+shakeoff+bossbaroff);
         draw_sprite(spr_hudbottom,hudimg,x+80,-18+y+shakeoff+bossbaroff);
         draw_sprite(spr_hudbottom,hudimg,x+160,-18+y+shakeoff+bossbaroff);

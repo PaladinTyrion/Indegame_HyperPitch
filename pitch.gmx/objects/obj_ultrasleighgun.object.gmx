@@ -25,13 +25,25 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp=60;
+            <string>event_inherited();
+hp=60;
 enemytype=102;
 boss=1; //Prevents from taking damage from respawning Pitch
 xadjust=24;
 crewx=-16;
 image_single=0;
-elfimg=0;</string>
+elfimg=0;
+xspeed=0;
+
+startwalked=0;
+nocrew=0;
+crewx=0;
+subelfimg=0;
+elfimg=0;
+sweat=0;
+subxadjust=0;
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -55,7 +67,8 @@ elfimg=0;</string>
             <kind>1</kind>
             <string>x=obj_ultrasleigh.x-6+xadjust;
 y=obj_ultrasleigh.y-38;
-depth=obj_ultrasleigh.depth+16;</string>
+depth=obj_ultrasleigh.depth+16;
+</string>
           </argument>
         </arguments>
       </action>
@@ -130,7 +143,8 @@ if (xadjust&gt;24){
     xadjust=24
     xspeed=0;
     subxadjust=0;
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
@@ -212,7 +226,8 @@ else if (!nocrew){
             }
         }
     draw_sprite(spr_crewelf,elfimg,x+crewx,y+14);
-    }</string>
+    }
+</string>
           </argument>
         </arguments>
       </action>
