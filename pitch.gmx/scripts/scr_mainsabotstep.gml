@@ -110,6 +110,7 @@ if ((!ignoreall && tier!="joystick") || starting>0){
         }
     }
 
+
 //UNLOCK REALLY
 if (!global.really && tier="start"){
     if (keyboard_check(vk_right) || joyhold[36]){

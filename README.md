@@ -23,7 +23,7 @@ Recently we are devoted to fix init problems.
 #### TODO ####
 
 1. var other.barrel is not to be fixed. barrel means a barrel. other means the obj by collision.
-2. passby maintitle, animation cannot be back to maintitle. 
+2. passby maintitle, animation cannot be back to maintitle. (Maybe refer to scr_mainsabotstep, it is weird.)
 3. if pitch hurts, cheer die.(src_pain:line 76 && line 60)
 4. obj_ultrasleigh_StepEndEvent(line 2) - obj_elf;
 5. src_sabotdraw(line 312) - obj_boss, but children of obj_boss should be here.

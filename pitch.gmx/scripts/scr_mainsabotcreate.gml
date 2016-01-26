@@ -1,4 +1,5 @@
 firstblack=0;
+initnew=0;
 
 scr_joycreate();
 if (joystick_exists(1)){

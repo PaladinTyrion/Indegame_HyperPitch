@@ -1,6 +1,5 @@
 //argument0 is 1 = pressed Enter
 reallycyc=0;
-//initnew = 0;
 
 //Enter highscore
 if (tier="enterhighscore"){
